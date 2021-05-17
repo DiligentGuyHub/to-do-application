@@ -33,4 +33,3 @@ C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.dll
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ref\ToDo.Domain.dll
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.pdb
-C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csprojAssemblyReference.cache

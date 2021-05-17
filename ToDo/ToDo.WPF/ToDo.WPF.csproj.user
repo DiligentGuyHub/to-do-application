@@ -19,10 +19,10 @@
     <Compile Update="Controls\NavigationBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Controls\NoteCreation.xaml.cs">
+    <Compile Update="Controls\TaskCreation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Controls\TaskCreation.xaml.cs">
+    <Compile Update="Controls\TaskDescription.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Controls\TaskSummary.xaml.cs">
@@ -63,10 +63,10 @@
     <Page Update="Controls\NavigationBar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Controls\NoteCreation.xaml">
+    <Page Update="Controls\TaskCreation.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Controls\TaskCreation.xaml">
+    <Page Update="Controls\TaskDescription.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Controls\TaskSummary.xaml">

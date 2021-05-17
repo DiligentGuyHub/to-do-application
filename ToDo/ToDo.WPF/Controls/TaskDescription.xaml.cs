@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ToDo.WPF.Controls
 {
     /// <summary>
-    /// Interaction logic for TaskList.xaml
+    /// Interaction logic for TaskDescription.xaml
     /// </summary>
-    public partial class TaskList : UserControl
+    public partial class TaskDescription : UserControl
     {
-        public TaskList()
+        public TaskDescription()
         {
             InitializeComponent();
         }

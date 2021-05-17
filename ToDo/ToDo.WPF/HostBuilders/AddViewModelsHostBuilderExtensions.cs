@@ -24,6 +24,7 @@ namespace ToDo.WPF.HostBuilders
 
                 services.AddSingleton<AccountViewModel>();
                 services.AddSingleton<TaskSummaryViewModel>();
+                services.AddSingleton<TaskDescriptionViewModel>();
                 services.AddSingleton<SettingsViewModel>();
                 services.AddSingleton<MessageViewModel>();
                 services.AddSingleton<MainViewModel>();

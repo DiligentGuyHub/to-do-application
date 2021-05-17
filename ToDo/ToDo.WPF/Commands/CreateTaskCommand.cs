@@ -32,7 +32,7 @@ namespace ToDo.WPF.Commands
 
             try
             {
-                User user = await _taskService.CreateTask(_accountStore.CurrentAccount, _todayViewModel.Task, _todayViewModel.Category, _todayViewModel.Priority);
+                User user = await _taskService.CreateTask(_accountStore.CurrentAccount, _todayViewModel.Task, _todayViewModel.Category, _todayViewModel.Priority, DateTime.Now);
                 
                 _accountStore.CurrentAccount = user;
             }

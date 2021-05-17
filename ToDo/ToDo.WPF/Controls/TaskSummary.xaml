@@ -6,12 +6,11 @@
     xmlns:local="clr-namespace:ToDo.WPF.Controls"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+    xmlns:viewmodels="clr-namespace:ToDo.WPF.ViewModels"
+    d:DataContext="{d:DesignInstance Type=viewmodels:TaskSummaryViewModel}"
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
-    <UserControl.InputBindings>
-        <KeyBinding Key="Enter" Command="{Binding UpdateTaskCommand}" />
-    </UserControl.InputBindings>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
@@ -24,7 +23,7 @@
             HorizontalAlignment="Left"
             FontSize="30"
             Foreground="{StaticResource BrushActivated}"
-            Text="Your tasks for today" />
+            Text="{Binding SelectedTask, UpdateSourceTrigger=PropertyChanged}" />
 
         <Grid Grid.Row="1">
             <!--<DataGrid
@@ -65,12 +64,20 @@
                 x:Name="TaskViewBox"
                 ItemsSource="{Binding Tasks}"
                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                SelectedIndex="{Binding SelectedTask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 VirtualizingStackPanel.ScrollUnit="Pixel">
+                <ListBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding UpdateTaskCommand}" />
+                    <KeyBinding Key="Delete" Command="{Binding DeleteTaskCommand}" />
+                    <KeyBinding
+                        Key="Enter"
+                        Command="{Binding DeleteTaskCommand}"
+                        Modifiers="Ctrl" />
+                </ListBox.InputBindings>
                 <ListBox.ContextMenu>
                     <ContextMenu>
-                        <MenuItem Command="{Binding UpdateTaskCommand}" Header="Update" />
-                        <MenuItem Command="{Binding}" Header="Duplicate" />
-                        <MenuItem Command="{Binding}" Header="Delete" />
+                        <MenuItem Command="{Binding DuplicateTaskCommand}" Header="Duplicate" />
+                        <MenuItem Command="{Binding DeleteTaskCommand}" Header="Delete" />
                     </ContextMenu>
                 </ListBox.ContextMenu>
                 <ListBox.ItemTemplate>

@@ -22,6 +22,8 @@ namespace ToDo.WPF.ViewModels
         private readonly ITaskService _taskService;
         private readonly IAccountStore _accountStore;
         public ICommand UpdateTaskCommand { get; set; }
+        public ICommand DeleteTaskCommand { get; set; }
+        public ICommand DuplicateTaskCommand { get; set; }
 
         private ObservableCollection<Domain.Models.Task> _tasks;
         public ObservableCollection<Domain.Models.Task> Tasks
@@ -36,12 +38,26 @@ namespace ToDo.WPF.ViewModels
                 OnPropertyChanged(nameof(Tasks));
             }
         }
-
+        private int selectedTask;
+        public int SelectedTask
+        {
+            get
+            {
+                return selectedTask;
+            }
+            set
+            {
+                selectedTask = Tasks[value].Id;
+                OnPropertyChanged(nameof(SelectedTask));
+            }
+        }
         public TaskSummaryViewModel(TaskStore taskStore, ToDoDbContextFactory contextFactory, ITaskService taskService, IAccountStore accountStore)
         {
             _contextFactory = contextFactory;
             _context = _contextFactory.CreateDbContext();
             UpdateTaskCommand = new UpdateTaskCommand(taskService, accountStore);
+            DeleteTaskCommand = new DeleteTaskCommand(this, taskService, accountStore);
+            DuplicateTaskCommand = new DuplicateTaskCommand(this, taskService, accountStore);
             _taskService = taskService;
             _accountStore = accountStore;
             _taskStore = taskStore;

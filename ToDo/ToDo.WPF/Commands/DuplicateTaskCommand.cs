@@ -3,50 +3,41 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ToDo.Domain.Models;
 using ToDo.Domain.Services;
 using ToDo.WPF.State.Accounts;
 using ToDo.WPF.ViewModels;
 
 namespace ToDo.WPF.Commands
 {
-    public class DeleteTaskCommand : AsyncCommandBase
+    public class DuplicateTaskCommand : AsyncCommandBase
     {
         private ITaskService _taskService;
         private IAccountStore _accountStore;
         private TaskSummaryViewModel _taskSummaryViewModel;
         private TaskDescriptionViewModel _taskDescriptionViewModel;
-        public DeleteTaskCommand(TaskSummaryViewModel taskSummaryViewModel, ITaskService taskService, IAccountStore accountStore)
+        public DuplicateTaskCommand(TaskSummaryViewModel taskSummaryViewModel, ITaskService taskService, IAccountStore accountStore)
         {
             _taskSummaryViewModel = taskSummaryViewModel;
             _taskService = taskService;
             _accountStore = accountStore;
         }
-        public DeleteTaskCommand(TaskDescriptionViewModel taskDescriptionViewModel, ITaskService taskService, IAccountStore accountStore)
+        public DuplicateTaskCommand(TaskDescriptionViewModel taskDescriptionViewModel, ITaskService taskService, IAccountStore accountStore)
         {
             _taskDescriptionViewModel = taskDescriptionViewModel;
             _taskService = taskService;
             _accountStore = accountStore;
         }
-        public override async System.Threading.Tasks.Task ExecuteAsync(object parameter)
+        public override async Task ExecuteAsync(object parameter)
         {
-            try
+            if ((string)parameter != "Description")
             {
-                if((string)parameter != "Description")
-                {
-                    await _taskService.DeleteTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTask);
-                }
-                else
-                {
-
-                }
-
-                _accountStore.CurrentAccount = _accountStore.CurrentAccount;
+                await _taskService.DuplicateTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTask);
             }
-            catch(Exception e)
+            else
             {
 
             }
+            _accountStore.CurrentAccount = _accountStore.CurrentAccount;
         }
     }
 }
