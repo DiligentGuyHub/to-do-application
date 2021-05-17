@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Colors-->
+    <!--<Color x:Key="ColorPrimary_1">#1D628B</Color>
+    <Color x:Key="ColorPrimary_2">#4589B0</Color>
+    <Color x:Key="ColorHover">#638EAD</Color>
+    <Color x:Key="ColorSecondary_1">white</Color>
+    <Color x:Key="ColorSecondary_2">#73B1D6</Color>-->
+    <!-- Classic -->
+    <Color x:Key="ColorPrimary_1">#dbe2ef</Color>
+    <Color x:Key="ColorPrimary_2">#f9f7f7</Color>
+    <Color x:Key="ColorHover">#3f72af</Color>
+    <Color x:Key="ColorActivated">#112d4e</Color>
+    <Color x:Key="ColorForeground">#0f0f0f</Color>
+    <Color x:Key="ColorBackgroundReversed">#000000</Color>
+    <Color x:Key="ColorForegroundReversed">#ffffff</Color>
+    <Color x:Key="ColorSecondary_2">#73B1D6</Color>
+
+    <!--<Color x:Key="ColorPrimary_1">#903749</Color>   
+    <Color x:Key="ColorPrimary_2">#e84545</Color>
+    <Color x:Key="ColorHover">#e84545</Color>
+    <Color x:Key="ColorSecondary_1">white</Color>
+    <Color x:Key="ColorSecondary_2">#73B1D6</Color>-->
+
+    <!--Brushes-->
+    <SolidColorBrush x:Key="BrushPrimary_1" Color="{StaticResource ColorPrimary_1}"/>
+    <SolidColorBrush x:Key="BrushPrimary_2" Color="{StaticResource ColorPrimary_2}"/>
+    <SolidColorBrush x:Key="BrushHover" Color="{StaticResource ColorHover}"/>
+    <SolidColorBrush x:Key="BrushActivated" Color="{StaticResource ColorActivated}"/>
+    <SolidColorBrush x:Key="BrushForeground" Color="{StaticResource ColorForeground}"/>
+    <SolidColorBrush x:Key="BrushBackgroundReversed" Color="{StaticResource ColorBackgroundReversed}"/>
+    <SolidColorBrush x:Key="BrushForegroundReversed" Color="{StaticResource ColorForegroundReversed}"/>
+    <SolidColorBrush x:Key="BrushSecondary_2" Color="{StaticResource ColorSecondary_2}"/>
+    
+    
+</ResourceDictionary>

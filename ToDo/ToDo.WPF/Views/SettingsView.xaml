@@ -1,0 +1,100 @@
+﻿<UserControl
+    x:Class="ToDo.WPF.Views.SettingsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ToDo.WPF.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:set="clr-namespace:ToDo.WPF.State.Settings"
+    xmlns:settings="clr-namespace:ToDo.WPF.State.Settings"
+    d:DataContext="{d:DesignInstance Type=settings:Settings}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <!--
+        xmlns:set="clr-namespace:ToDo.WPF.State.Settings"
+        d:DataContext="{d:DesignInstance Type=set:Settings}"
+    -->
+    <Grid Background="{StaticResource BrushBackgroundReversed}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Border
+            Grid.Row="0"
+            Margin="10,10"
+            BorderBrush="{StaticResource BrushActivated}"
+            BorderThickness="0,0,0,2">
+            <TextBlock
+                Padding="0,0,0,10"
+                FontSize="48"
+                Text="Settings" />
+        </Border>
+        <Grid Grid.Row="1" Margin="10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <CheckBox
+                x:Name="checkbox1"
+                Grid.Row="0"
+                Content="Check it out" />
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300" />
+                    <ColumnDefinition Width="300" />
+                    <!--<ColumnDefinition Width="150"/>-->
+                </Grid.ColumnDefinitions>
+
+                <!--<RadioButton Content="Reddish theme"
+                                 Command="{Binding UpdateCurrentThemeCommand}"
+                                 CommandParameter="Reddish"/>-->
+                <Button
+                    x:Name="Reddish"
+                    Grid.Column="0"
+                    Margin="10"
+                    Command="{Binding UpdateCurrentThemeCommand}"
+                    CommandParameter="{x:Static set:ThemeType.Reddish}">
+                    <Grid>
+                        <Image Source="pack://application:,,,/Resources/Backgrounds/reddish-theme.png" />
+                        <TextBlock
+                            FontSize="48"
+                            Foreground="Black"
+                            Text="Reddish" />
+                    </Grid>
+                </Button>
+
+                <Button
+                    x:Name="Classic"
+                    Grid.Column="1"
+                    Margin="10"
+                    Command="{Binding UpdateCurrentThemeCommand}"
+                    CommandParameter="{x:Static set:ThemeType.Classic}">
+                    <Grid>
+                        <Image Source="pack://application:,,,/Resources/Backgrounds/classic-theme.png" />
+                        <TextBlock
+                            FontSize="48"
+                            Foreground="White"
+                            Text="Classic" />
+                    </Grid>
+                </Button>
+
+                <!--<Border Grid.Column="2"  Margin="5 5" BorderBrush="Black" BorderThickness="1">
+                    <StackPanel>
+                        <Image Source="pack://application:,,,/Resources/Backgrounds/bluish-theme.png"/>
+                -->
+                <!--<RadioButton Content="Classic theme"
+                                 Command="{Binding UpdateCurrentThemeCommand}"
+                                 CommandParameter="Classic"/>-->
+                <!--
+                        <Button x:Name="Bluish"
+                            Content="Bluish theme"
+                            Click="SwitchToBluish"/>
+                    </StackPanel>
+                </Border>-->
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

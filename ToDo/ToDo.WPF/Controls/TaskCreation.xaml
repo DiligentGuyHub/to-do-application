@@ -1,0 +1,115 @@
+﻿<UserControl
+    x:Class="ToDo.WPF.Controls.TaskCreation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:gif="http://wpfanimatedgif.codeplex.com"
+    xmlns:local="clr-namespace:ToDo.WPF.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:todayvm="clr-namespace:ToDo.WPF.ViewModels"
+    d:DataContext="{d:DesignInstance Type=todayvm:TodayViewModel}"
+    d:DesignHeight="35"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.InputBindings>
+        <KeyBinding
+            Key="Enter"
+            Command="{Binding CreateTaskCommand}"
+            CommandParameter="{Binding SelectedTask}" />
+    </UserControl.InputBindings>
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/TaskCreation.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibility" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="35" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <TextBlock
+                Margin="10,0,0,0"
+                DataContext="{Binding ErrorMessageViewModel}"
+                Foreground="DarkRed"
+                Text="{Binding Message}"
+                Visibility="{Binding HasMessage, Converter={StaticResource BooleanToVisibility}}" />
+        </Grid>
+        <Border>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition MinWidth="200" />
+                        <ColumnDefinition Width="105" />
+                        <ColumnDefinition Width="54" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox
+                        Grid.Column="0"
+                        Margin="10,0"
+                        Text="{Binding Task, UpdateSourceTrigger=PropertyChanged}" />
+                    <ComboBox
+                        Grid.Column="1"
+                        SelectedValue="{Binding Category, UpdateSourceTrigger=PropertyChanged}"
+                        SelectedValuePath="Text">
+                        <TextBlock Text="Inbox" />
+                        <TextBlock Text="Category 1" />
+                        <TextBlock Text="Category 2" />
+                        <TextBlock Text="Category 3" />
+                    </ComboBox>
+                    <ComboBox
+                        Grid.Column="2"
+                        SelectedValue="{Binding Priority, UpdateSourceTrigger=PropertyChanged}"
+                        SelectedValuePath="Text">
+                        <TextBlock
+                            Margin="1,0,0,0"
+                            VerticalAlignment="Center"
+                            Text="High" />
+                        <TextBlock
+                            Margin="1,0,0,0"
+                            VerticalAlignment="Center"
+                            Text="Medium" />
+                        <TextBlock
+                            Margin="1,0,0,0"
+                            VerticalAlignment="Center"
+                            Text="Low" />
+                        <!--<ComboBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="25" Source="pack://application:,,,/Resources/Icons/priority-high.png"/>
+                            <TextBlock Margin="1 0 0 0" VerticalAlignment="Center"  Text="High"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="25" Source="pack://application:,,,/Resources/Icons/priority-medium.png"/>
+                            <TextBlock Margin="1 0 0 0" VerticalAlignment="Center" Text="Medium"/>
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="25" Source="pack://application:,,,/Resources/Icons/priority-low.png"/>
+                            <TextBlock Margin="1 0 0 0" VerticalAlignment="Center"  Text="Low"/>
+                        </StackPanel>
+                    </ComboBoxItem>-->
+                    </ComboBox>
+                    <!--<Image Width="25" gif:ImageBehavior.AnimatedSource="pack://application:,,,/Resources/Gifs/alarm-clock-1.gif"/>-->
+                </Grid>
+                <!--<Button
+                    Grid.Column="1"
+                    BorderBrush="Transparent"
+                    Command="{Binding CreateTaskCommand}"
+                    CommandParameter="{Binding SelectedTask}"
+                    IsDefault="True"
+                    Tag="" />-->
+            </Grid>
+        </Border>
+
+    </Grid>
+</UserControl>

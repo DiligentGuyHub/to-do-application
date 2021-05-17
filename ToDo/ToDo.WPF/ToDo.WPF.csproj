@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\Account\**" />
+    <EmbeddedResource Remove="ViewModels\Account\**" />
+    <None Remove="ViewModels\Account\**" />
+    <Page Remove="ViewModels\Account\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Backgrounds\bluish-theme.png" />
+    <None Remove="Resources\Backgrounds\classic-theme.png" />
+    <None Remove="Resources\Backgrounds\dark-theme-1.png" />
+    <None Remove="Resources\Backgrounds\night-view.jpg" />
+    <None Remove="Resources\Backgrounds\reddish-theme.png" />
+    <None Remove="Resources\Gifs\alarm-clock-1.gif" />
+    <None Remove="Resources\Icons\account.png" />
+    <None Remove="Resources\Icons\next-week.svg" />
+    <None Remove="Resources\Icons\priority-high.png" />
+    <None Remove="Resources\Icons\priority-low.png" />
+    <None Remove="Resources\Icons\priority-medium.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="PasswordBoxMVVM" Version="1.0.5" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.API\ToDo.API.csproj" />
+    <ProjectReference Include="..\ToDo.Domain\ToDo.Domain.csproj" />
+    <ProjectReference Include="..\ToDo.EntityFramework\ToDo.EntityFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Backgrounds\bluish-theme.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\classic-theme.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\dark-theme-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\night-view.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\reddish-theme.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Gifs\alarm-clock-1.gif" />
+    <Resource Include="Resources\Icons\account.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\priority-high.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\next-week.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\priority-low.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Icons\priority-medium.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\TodayView - Copy %282%29.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>TodayView.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TodayView - Copy - Copy.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>TodayView - Copy.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TodayView - Copy.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>TodayView.xaml.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Styles\Bluish.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
+</Project>

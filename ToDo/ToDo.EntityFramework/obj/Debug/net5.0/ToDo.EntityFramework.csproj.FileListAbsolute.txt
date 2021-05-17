@@ -1,0 +1,54 @@
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.deps.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.runtimeconfig.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ref\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ref\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.genruntimeconfig.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.deps.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.runtimeconfig.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ref\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ref\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.genruntimeconfig.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.deps.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.runtimeconfig.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ref\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.csproj.CopyComplete
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ref\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.EntityFramework\obj\Debug\net5.0\ToDo.EntityFramework.genruntimeconfig.cache

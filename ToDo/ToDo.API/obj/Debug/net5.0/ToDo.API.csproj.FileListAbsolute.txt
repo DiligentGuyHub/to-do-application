@@ -1,0 +1,45 @@
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\bin\Debug\net5.0\ToDo.API.deps.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\bin\Debug\net5.0\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\bin\Debug\net5.0\ref\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\bin\Debug\net5.0\ToDo.API.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ref\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.API\obj\Debug\net5.0\ToDo.API.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.API.deps.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ref\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.API.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ref\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.API.deps.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.API.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ref\ToDo.API.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.API.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.csproj.CopyComplete
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ref\ToDo.API.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.API\obj\Debug\net5.0\ToDo.API.pdb

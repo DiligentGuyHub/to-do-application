@@ -1,0 +1,36 @@
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.deps.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\bin\Debug\net5.0\ref\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ref\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.deps.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ref\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ref\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.deps.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ref\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\bin\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ref\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.Domain\obj\Debug\net5.0\ToDo.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,372 @@
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.exe
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.deps.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.lref
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.g.resources
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.genruntimeconfig.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Common.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\App.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\InboxView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\InboxView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.exe
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.deps.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Common.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\InboxView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.lref
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\InboxView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.baml
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.g.resources
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Документы\III\Object Oriented Programming\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.genruntimeconfig.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.exe
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.deps.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Common.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\InboxView.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.lref
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\InboxView.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.g.resources
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CopyComplete
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.genruntimeconfig.cache
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\NavigationBar.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateCard.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateCard.baml
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateListing.g.cs
+C:\Users\longr\OneDrive\Документы\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateListing.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.exe
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.API.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.Domain.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.EntityFramework.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csprojAssemblyReference.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\NavigationBar.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateCard.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateListing.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.lref
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateCard.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\ExchangeRateListing.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.g.resources
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfoInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfo.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CoreCompileInputs.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.csproj.CopyComplete
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.deps.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.runtimeconfig.dev.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ref\ToDo.WPF.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\ToDo.WPF.pdb
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.genruntimeconfig.cache
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\TaskCreation.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\WpfAnimatedGif.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\TaskCreation.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\TaskCreation.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NoteCreation.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NoteCreation.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.AspNet.Identity.Core.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\LoginView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\LoginView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Classic.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Reddish.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\SettingsView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\SettingsView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Bluish.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Styles\Settings.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\AccountPanel.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\AccountPanel.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\TaskSummary.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\TaskSummary.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\appsettings.json
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\RegisterView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\RegisterView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\bin\Debug\net5.0-windows\PasswordBoxMVVM.dll
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\AccountView.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\AccountView.baml
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\TaskList.g.cs
+C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\TaskList.baml
