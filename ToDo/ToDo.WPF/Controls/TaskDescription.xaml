@@ -5,12 +5,46 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:ToDo.WPF.Controls"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:nav="clr-namespace:ToDo.WPF.State.Navigators"
+    xmlns:viewmodels="clr-namespace:ToDo.WPF.ViewModels"
+    d:DataContext="{d:DesignInstance Type=viewmodels:TaskSummaryViewModel}"
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
-    <Grid DataContext="{Binding TaskDescriptionViewModel}">
-        <StackPanel Orientation="Vertical">
-            <TextBox Text="{Binding Task.Header}" />
+    <UserControl.InputBindings>
+        <KeyBinding Key="Enter" Command="{Binding UpdateTaskCommand}" />
+        <KeyBinding Key="Delete" Command="{Binding DeleteTaskCommand}" />
+        <KeyBinding
+            Key="Esc"
+            Command="{Binding UpdateCurrentViewModelCommand}"
+            CommandParameter="{x:Static nav:ViewType.Home}" />
+    </UserControl.InputBindings>
+    <Grid>
+        <StackPanel Margin="10" Orientation="Vertical">
+            <Border BorderBrush="{StaticResource BrushActivated}" BorderThickness="0,0,0,2">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox
+                        Grid.Column="0"
+                        VerticalContentAlignment="Center"
+                        IsChecked="{Binding SelectedTaskInstance.IsCompleted, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+                        <CheckBox.LayoutTransform>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                        </CheckBox.LayoutTransform>
+                    </CheckBox>
+                    <TextBox
+                        Padding="5"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        FontSize="36"
+                        FontWeight="SemiBold"
+                        Text="{Binding SelectedTaskInstance.Header, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                </StackPanel>
+            </Border>
+            <TextBox
+                Background="Transparent"
+                BorderThickness="0"
+                FontSize="18"
+                Text="{Binding SelectedTaskInstance.Description, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </StackPanel>
     </Grid>
 </UserControl>

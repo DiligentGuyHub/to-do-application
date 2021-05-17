@@ -23,9 +23,7 @@ namespace ToDo.WPF.Commands
         {
             if (parameter is ViewType)
             {
-                ViewType viewType = (ViewType)parameter;
-
-                _navigator.CurrentViewModel = _viewModelFactory.CreateViewModel(viewType);
+                _navigator.CurrentViewModel = _viewModelFactory.CreateViewModel((ViewType)parameter);
             }
         }
     }

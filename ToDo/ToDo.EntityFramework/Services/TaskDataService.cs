@@ -61,6 +61,7 @@ namespace ToDo.EntityFramework.Services.Common
         }
 
         public async Task<User> UpdateTask(User account)
+        
         {
             await _accountService.Update(account.Id, account);
             return account;

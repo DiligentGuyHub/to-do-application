@@ -24,7 +24,6 @@ namespace ToDo.WPF.HostBuilders
 
                 services.AddSingleton<AccountViewModel>();
                 services.AddSingleton<TaskSummaryViewModel>();
-                services.AddSingleton<TaskDescriptionViewModel>();
                 services.AddSingleton<SettingsViewModel>();
                 services.AddSingleton<MessageViewModel>();
                 services.AddSingleton<MainViewModel>();
@@ -32,7 +31,6 @@ namespace ToDo.WPF.HostBuilders
                 services.AddSingleton<ViewModelDelegateRenavigator<LoginViewModel>>();
                 services.AddSingleton<ViewModelDelegateRenavigator<HomeViewModel>>();
                 services.AddSingleton<ViewModelDelegateRenavigator<RegisterViewModel>>();
-
 
                 services.AddSingleton<HomeViewModel>(services => new HomeViewModel(
                     ExchangeRateListingViewModel.LoadExchangeIndexViewModel(
@@ -61,6 +59,11 @@ namespace ToDo.WPF.HostBuilders
                 services.AddSingleton<CreateViewModel<SettingsViewModel>>(services =>
                 {
                     return () => services.GetRequiredService<SettingsViewModel>();
+                });
+
+                services.AddSingleton<CreateViewModel<TaskSummaryViewModel>>(services =>
+                {
+                    return () => services.GetRequiredService<TaskSummaryViewModel>();
                 });
 
                 services.AddSingleton<CreateViewModel<AccountViewModel>>(services =>

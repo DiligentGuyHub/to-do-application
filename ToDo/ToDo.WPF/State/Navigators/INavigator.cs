@@ -15,6 +15,7 @@ namespace ToDo.WPF.State.Navigators
         Register,
         Account,
         Settings,
+        Task,
         Home,
         Inbox,
         Today,

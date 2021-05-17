@@ -14,18 +14,21 @@ namespace ToDo.WPF.ViewModels.Factories
         private readonly CreateViewModel<LoginViewModel> _createLoginViewModel;
         private readonly CreateViewModel<SettingsViewModel> _createSettingsViewModel;
         private readonly CreateViewModel<AccountViewModel> _createAccountViewModel;
+        private readonly CreateViewModel<TaskSummaryViewModel> _createTaskDescriptionViewModel;
 
         public ToDoViewModelFactory(CreateViewModel<HomeViewModel> createHomeViewModel,
                                     CreateViewModel<LoginViewModel> createLoginViewModel,
                                     CreateViewModel<SettingsViewModel> createSettingsViewModel,
-                                    CreateViewModel<TodayViewModel> createTodayViewModel, 
-                                    CreateViewModel<AccountViewModel> createAccountViewModel)
+                                    CreateViewModel<TodayViewModel> createTodayViewModel,
+                                    CreateViewModel<AccountViewModel> createAccountViewModel, 
+                                    CreateViewModel<TaskSummaryViewModel> createTaskDescriptionViewModel)
         {
             _createHomeViewModel = createHomeViewModel;
             _createLoginViewModel = createLoginViewModel;
             _createSettingsViewModel = createSettingsViewModel;
             _createTodayViewModel = createTodayViewModel;
             _createAccountViewModel = createAccountViewModel;
+            _createTaskDescriptionViewModel = createTaskDescriptionViewModel;
         }
 
         public ViewModelBase CreateViewModel(ViewType viewType)
@@ -38,6 +41,8 @@ namespace ToDo.WPF.ViewModels.Factories
                     return _createLoginViewModel();
                 case ViewType.Settings:
                     return _createSettingsViewModel();
+                case ViewType.Task:
+                    return _createTaskDescriptionViewModel();
                 case ViewType.Home:
                     return _createHomeViewModel();
                 case ViewType.Today:

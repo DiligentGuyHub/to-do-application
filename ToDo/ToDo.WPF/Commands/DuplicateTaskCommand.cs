@@ -14,16 +14,9 @@ namespace ToDo.WPF.Commands
         private ITaskService _taskService;
         private IAccountStore _accountStore;
         private TaskSummaryViewModel _taskSummaryViewModel;
-        private TaskDescriptionViewModel _taskDescriptionViewModel;
         public DuplicateTaskCommand(TaskSummaryViewModel taskSummaryViewModel, ITaskService taskService, IAccountStore accountStore)
         {
             _taskSummaryViewModel = taskSummaryViewModel;
-            _taskService = taskService;
-            _accountStore = accountStore;
-        }
-        public DuplicateTaskCommand(TaskDescriptionViewModel taskDescriptionViewModel, ITaskService taskService, IAccountStore accountStore)
-        {
-            _taskDescriptionViewModel = taskDescriptionViewModel;
             _taskService = taskService;
             _accountStore = accountStore;
         }

@@ -10,13 +10,17 @@ using ToDo.Domain.Services;
 using ToDo.EntityFramework;
 using ToDo.WPF.Commands;
 using ToDo.WPF.State.Accounts;
+using ToDo.WPF.State.Navigators;
 using ToDo.WPF.State.Tasks;
+using ToDo.WPF.ViewModels.Factories;
 
 namespace ToDo.WPF.ViewModels
 {
     public class TaskSummaryViewModel : ViewModelBase
     {
         public TaskStore _taskStore;
+        private INavigator _navigator;
+        private IToDoViewModelFactory _viewModelFactory;
         private readonly ToDoDbContextFactory _contextFactory;
         private readonly ToDoDbContext _context;
         private readonly ITaskService _taskService;
@@ -24,6 +28,9 @@ namespace ToDo.WPF.ViewModels
         public ICommand UpdateTaskCommand { get; set; }
         public ICommand DeleteTaskCommand { get; set; }
         public ICommand DuplicateTaskCommand { get; set; }
+        public ICommand UpdateCurrentViewModelCommand { get; }
+
+        public ViewModelBase CurrentViewModel => _navigator.CurrentViewModel;
 
         private ObservableCollection<Domain.Models.Task> _tasks;
         public ObservableCollection<Domain.Models.Task> Tasks
@@ -38,6 +45,19 @@ namespace ToDo.WPF.ViewModels
                 OnPropertyChanged(nameof(Tasks));
             }
         }
+        private Domain.Models.Task selectedTaskInstance;
+        public Domain.Models.Task SelectedTaskInstance
+        {
+            get
+            {
+                return selectedTaskInstance;
+            }
+            set
+            {
+                selectedTaskInstance = value;
+                OnPropertyChanged(nameof(SelectedTaskInstance));
+            }
+        }
         private int selectedTask;
         public int SelectedTask
         {
@@ -47,24 +67,34 @@ namespace ToDo.WPF.ViewModels
             }
             set
             {
-                selectedTask = Tasks[value].Id;
+                if (value != -1)
+                {
+                    selectedTask = Tasks[value].Id;
+                }
+                SelectedTaskInstance = Tasks.Where(item => item.Id == selectedTask).FirstOrDefault();
                 OnPropertyChanged(nameof(SelectedTask));
             }
         }
-        public TaskSummaryViewModel(TaskStore taskStore, ToDoDbContextFactory contextFactory, ITaskService taskService, IAccountStore accountStore)
+
+
+        public TaskSummaryViewModel(TaskStore taskStore, ToDoDbContextFactory contextFactory, ITaskService taskService, IAccountStore accountStore, INavigator navigator, IToDoViewModelFactory viewModelFactory)
         {
             _contextFactory = contextFactory;
+            _navigator = navigator;
+            _navigator.StateChanged += Navigator_StateChanged;
+
+            _viewModelFactory = viewModelFactory;
             _context = _contextFactory.CreateDbContext();
             UpdateTaskCommand = new UpdateTaskCommand(taskService, accountStore);
             DeleteTaskCommand = new DeleteTaskCommand(this, taskService, accountStore);
             DuplicateTaskCommand = new DuplicateTaskCommand(this, taskService, accountStore);
+            UpdateCurrentViewModelCommand = new UpdateCurrentViewModelCommand(_navigator, _viewModelFactory);
             _taskService = taskService;
             _accountStore = accountStore;
             _taskStore = taskStore;
             _tasks = new ObservableCollection<Domain.Models.Task>(_context.Tasks.Local.ToBindingList());
             _taskStore.StateChanged += TaskStore_StateChanged;
             ResetTasks();
-
         }
         private void ResetTasks()
         {
@@ -86,6 +116,10 @@ namespace ToDo.WPF.ViewModels
         {
             OnPropertyChanged(nameof(Tasks));
             ResetTasks();
+        }
+        private void Navigator_StateChanged()
+        {
+            OnPropertyChanged(nameof(CurrentViewModel));
         }
     }
 }
