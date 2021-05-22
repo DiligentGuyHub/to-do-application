@@ -14,12 +14,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Backgrounds\authentication.png" />
     <None Remove="Resources\Backgrounds\bluish-theme.png" />
+    <None Remove="Resources\Backgrounds\classic-home-view.png" />
     <None Remove="Resources\Backgrounds\classic-theme.png" />
     <None Remove="Resources\Backgrounds\dark-theme-1.png" />
     <None Remove="Resources\Backgrounds\night-view.jpg" />
+    <None Remove="Resources\Backgrounds\pinkypie-home-view.png" />
+    <None Remove="Resources\Backgrounds\pinkypie-theme.png" />
+    <None Remove="Resources\Backgrounds\reddish-home-view.png" />
     <None Remove="Resources\Backgrounds\reddish-theme.png" />
     <None Remove="Resources\Gifs\alarm-clock-1.gif" />
+    <None Remove="Resources\Gifs\authentication.gif" />
     <None Remove="Resources\Icons\account.png" />
     <None Remove="Resources\Icons\next-week.svg" />
     <None Remove="Resources\Icons\priority-high.png" />
@@ -35,6 +41,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="PasswordBoxMVVM" Version="1.0.5" />
+    <PackageReference Include="System.Windows.Extensions" Version="5.0.0" />
     <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
   </ItemGroup>
 
@@ -45,6 +52,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Backgrounds\authentication.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\Backgrounds\bluish-theme.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -54,13 +64,28 @@
     <Resource Include="Resources\Backgrounds\dark-theme-1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Resources\Backgrounds\classic-home-view.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\Backgrounds\night-view.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\pinkypie-home-view.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\pinkypie-theme.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Backgrounds\reddish-home-view.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Backgrounds\reddish-theme.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Gifs\alarm-clock-1.gif" />
+    <Resource Include="Resources\Gifs\authentication.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\Icons\account.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

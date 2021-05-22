@@ -12,7 +12,8 @@ namespace ToDo.WPF.State.Settings
     public enum ThemeType
     {
         Classic,
-        Reddish
+        Reddish,
+        PinkyPie
     }
     public interface ISettings
     {

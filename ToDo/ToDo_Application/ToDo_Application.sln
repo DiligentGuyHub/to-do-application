@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain", "..\ToDo.Domain\ToDo.Domain.csproj", "{97821506-6FEF-40F8-AB7E-5CF736B46925}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Domain", "..\ToDo.Domain\ToDo.Domain.csproj", "{97821506-6FEF-40F8-AB7E-5CF736B46925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.EntityFramework", "..\ToDo.EntityFramework\ToDo.EntityFramework.csproj", "{0305CBDD-9F82-475F-B3D2-3B108863511D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.EntityFramework", "..\ToDo.EntityFramework\ToDo.EntityFramework.csproj", "{0305CBDD-9F82-475F-B3D2-3B108863511D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.WPF", "..\ToDo.WPF\ToDo.WPF.csproj", "{07EFE04F-2F05-4E1B-95D4-12F756DFA57B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.WPF", "..\ToDo.WPF\ToDo.WPF.csproj", "{07EFE04F-2F05-4E1B-95D4-12F756DFA57B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.API", "..\ToDo.API\ToDo.API.csproj", "{1129F10A-3D30-4DFF-BB08-6B55D46CC21C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.API", "..\ToDo.API\ToDo.API.csproj", "{1129F10A-3D30-4DFF-BB08-6B55D46CC21C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -77,13 +77,13 @@ namespace ToDo.WPF.ViewModels
             Authenticator = authenticator;
             Username = authenticator.CurrentUser.Username;
             actualTime = DateTime.Now.ToString("HH:mm");
-            if (DateTime.Now.Hour > 0 && DateTime.Now.Hour <= 6)
+            if (DateTime.Now.Hour >= 0 && DateTime.Now.Hour <= 6)
                 actualGreeting = $"Hello, moon rider";
             else if (DateTime.Now.Hour > 6 && DateTime.Now.Hour <= 12)
                 actualGreeting = $"Good morning, {Username}";
             else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour <= 16)
                 actualGreeting = $"Good afternoon, {Username}";
-            else if (DateTime.Now.Hour > 16 && DateTime.Now.Hour < 24)
+            else if (DateTime.Now.Hour > 16)
                 actualGreeting = $"Good evening, {Username}";
             StartTimer();
         }
@@ -100,13 +100,13 @@ namespace ToDo.WPF.ViewModels
         private void GetActualTime(object sender, EventArgs e)
         {
             actualTime = DateTime.Now.ToString("HH:mm");
-            if (DateTime.Now.Hour > 0 && DateTime.Now.Hour <= 6)
+            if (DateTime.Now.Hour >= 0 && DateTime.Now.Hour <= 6)
                 actualGreeting = $"Hello, moon rider";
             else if (DateTime.Now.Hour > 6 && DateTime.Now.Hour <= 12)
                 actualGreeting = $"Good morning, {Username}";
             else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour <= 16)
                 actualGreeting = $"Good afternoon, {Username}";
-            else if (DateTime.Now.Hour > 16 && DateTime.Now.Hour < 24)
+            else if (DateTime.Now.Hour > 16)
                 actualGreeting = $"Good evening, {Username}";
         }
     }

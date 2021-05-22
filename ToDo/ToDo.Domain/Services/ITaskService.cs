@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDo.Domain.Models;
-using Task = ToDo.Domain.Models.Task;
 
 namespace ToDo.Domain.Services
 {
-    public interface ITaskService : IDataService<Task>
+    public interface ITaskService : IDataService<Domain.Models.Task>
     {
         Task<User> CreateTask(
             User account,
@@ -21,7 +20,6 @@ namespace ToDo.Domain.Services
             ICollection<AttachedImage> images = null,
             ICollection<AttachedFile> files = null,
             ICollection<SubTask> subTasks = null);
-        Task<User> UpdateTask(User account);
         Task<User> DeleteTask(User account, int id);
         Task<User> DuplicateTask(User account, int id);
     }

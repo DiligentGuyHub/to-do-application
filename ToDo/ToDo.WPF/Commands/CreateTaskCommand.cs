@@ -17,14 +17,16 @@ namespace ToDo.WPF.Commands
     {
         private ITaskService _taskService;
         private IAccountStore _accountStore;
+        private IAccountService _accountService;
         private TodayViewModel _todayViewModel;
 
 
-        public CreateTaskCommand(TodayViewModel todayViewModel, ITaskService taskService, IAccountStore accountStore)
+        public CreateTaskCommand(TodayViewModel todayViewModel, ITaskService taskService, IAccountStore accountStore, IAccountService accountService)
         {
             _todayViewModel = todayViewModel;
             _taskService = taskService;
             _accountStore = accountStore;
+            _accountService = accountService;
         }
         public override async System.Threading.Tasks.Task ExecuteAsync(object parameter)
         {

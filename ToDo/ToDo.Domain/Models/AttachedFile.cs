@@ -12,9 +12,9 @@ namespace ToDo.Domain.Models
     public class AttachedFile : DomainBase
     {
         public int? TaskId { get; set; }
-        [ForeignKey("UserId")]
+        [ForeignKey("TaskId")]
         public Task Task { get; set; }
-        public byte[] File { get; set; }
+        public byte[] File{ get; set; }
 
     }
 }

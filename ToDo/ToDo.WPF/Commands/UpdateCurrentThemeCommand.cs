@@ -34,6 +34,25 @@ namespace ToDo.WPF.Commands
             Application.Current.Resources.MergedDictionaries.Add(
                Application.LoadComponent(new Uri($"/Styles/Settings.xaml", UriKind.Relative)) as ResourceDictionary
                );
+            //switch (parameter.ToString())
+            //{
+            //    case "Classic":
+            //        Application.Current.Resources.MergedDictionaries.Add(
+            //            Application.LoadComponent(new Uri("<materialDesign:BundledThemeBaseTheme = \"Light\" PrimaryColor = \"#006b70\" SecondaryColor = \"#00adb5\" /> ")) as ResourceDictionary
+            //        );
+            //        break;
+            //    case "Reddish":
+            //        Application.Current.Resources.MergedDictionaries.Add(
+            //            Application.LoadComponent(new Uri("<materialDesign:BundledThemeBaseTheme = \"Light\" PrimaryColor = \"#810000\" SecondaryColor = \"#ce1212\" /> ")) as ResourceDictionary
+            //        );
+            //        break;
+            //    case "PinkyPie":
+            //        Application.Current.Resources.MergedDictionaries.Add(
+            //            Application.LoadComponent(new Uri("<materialDesign:BundledThemeBaseTheme = \"Light\" PrimaryColor = \"#e93b81\" SecondaryColor = \"#f5abc9\" /> ")) as ResourceDictionary
+            //        );
+            //        break;
+            //}
+
         }
     }
 }

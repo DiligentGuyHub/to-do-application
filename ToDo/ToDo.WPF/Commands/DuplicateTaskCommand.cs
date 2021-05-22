@@ -11,20 +11,23 @@ namespace ToDo.WPF.Commands
 {
     public class DuplicateTaskCommand : AsyncCommandBase
     {
-        private ITaskService _taskService;
-        private IAccountStore _accountStore;
-        private TaskSummaryViewModel _taskSummaryViewModel;
-        public DuplicateTaskCommand(TaskSummaryViewModel taskSummaryViewModel, ITaskService taskService, IAccountStore accountStore)
+        private readonly ITaskService _taskService;
+        private readonly IAccountStore _accountStore;
+        private readonly IAccountService _accountService;
+        private readonly TaskSummaryViewModel _taskSummaryViewModel;
+        public DuplicateTaskCommand(TaskSummaryViewModel taskSummaryViewModel, ITaskService taskService, IAccountService accountService, IAccountStore accountStore)
         {
             _taskSummaryViewModel = taskSummaryViewModel;
             _taskService = taskService;
+            _accountService = accountService;
             _accountStore = accountStore;
         }
         public override async Task ExecuteAsync(object parameter)
         {
             if ((string)parameter != "Description")
             {
-                await _taskService.DuplicateTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTask);
+                await _taskService.DuplicateTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTaskInstance.Id);
+                await _accountService.Update(_accountStore.CurrentAccount.Id, _accountStore.CurrentAccount);
             }
             else
             {

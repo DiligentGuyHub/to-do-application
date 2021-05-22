@@ -11,7 +11,7 @@ namespace ToDo.WPF.State.Tasks
 {
     public class TaskStore
     {
-        private IAccountStore _accountStore;
+        private readonly IAccountStore _accountStore;
 
         public IEnumerable<ToDo.Domain.Models.Task> Tasks => _accountStore.CurrentAccount?.Tasks ?? new List<ToDo.Domain.Models.Task>();
 

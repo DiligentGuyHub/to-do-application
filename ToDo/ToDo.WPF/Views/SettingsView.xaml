@@ -41,12 +41,8 @@
                 x:Name="checkbox1"
                 Grid.Row="0"
                 Content="Check it out" />
-            <Grid Grid.Row="1">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="300" />
-                    <ColumnDefinition Width="300" />
-                    <!--<ColumnDefinition Width="150"/>-->
-                </Grid.ColumnDefinitions>
+            <WrapPanel>
+
 
                 <!--<RadioButton Content="Reddish theme"
                                  Command="{Binding UpdateCurrentThemeCommand}"
@@ -54,6 +50,7 @@
                 <Button
                     x:Name="Reddish"
                     Grid.Column="0"
+                    Width="250"
                     Margin="10"
                     Command="{Binding UpdateCurrentThemeCommand}"
                     CommandParameter="{x:Static set:ThemeType.Reddish}">
@@ -69,6 +66,7 @@
                 <Button
                     x:Name="Classic"
                     Grid.Column="1"
+                    Width="250"
                     Margin="10"
                     Command="{Binding UpdateCurrentThemeCommand}"
                     CommandParameter="{x:Static set:ThemeType.Classic}">
@@ -78,6 +76,22 @@
                             FontSize="48"
                             Foreground="White"
                             Text="Classic" />
+                    </Grid>
+                </Button>
+
+                <Button
+                    x:Name="PinkyPie"
+                    Grid.Column="1"
+                    Width="250"
+                    Margin="10"
+                    Command="{Binding UpdateCurrentThemeCommand}"
+                    CommandParameter="{x:Static set:ThemeType.PinkyPie}">
+                    <Grid>
+                        <Image Source="pack://application:,,,/Resources/Backgrounds/pinkypie-theme.png" />
+                        <TextBlock
+                            FontSize="48"
+                            Foreground="White"
+                            Text="Pinky Pie" />
                     </Grid>
                 </Button>
 
@@ -94,7 +108,7 @@
                             Click="SwitchToBluish"/>
                     </StackPanel>
                 </Border>-->
-            </Grid>
+            </WrapPanel>
         </Grid>
     </Grid>
 </UserControl>

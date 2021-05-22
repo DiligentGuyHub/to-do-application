@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using ToDo.Domain.Models;
@@ -12,11 +13,13 @@ namespace ToDo.EntityFramework.Services
 {
     public class GenericDataService<T> : IDataService<T> where T : DomainBase
     {
-        private readonly ToDoDbContextFactory _contextFactory;
-        private readonly NonQueryDataService<T> _nonQueryDataService;
-        public GenericDataService(ToDoDbContextFactory contextFactory)
+        protected readonly ToDoDbContextFactory _contextFactory;
+        protected readonly NonQueryDataService<T> _nonQueryDataService;
+        protected readonly ToDoDbContext _toDoDbContext;
+        public GenericDataService(ToDoDbContextFactory contextFactory, ToDoDbContext toDoDbContext)
         {
             _contextFactory = contextFactory;
+            _toDoDbContext = toDoDbContext;
             _nonQueryDataService = new NonQueryDataService<T>(contextFactory);
         }
 
@@ -42,15 +45,42 @@ namespace ToDo.EntityFramework.Services
                 return entity;
             }
         }
-
-        public async Task<IEnumerable<T>> GetAll()
+        public async Task<ICollection<T>> GetAll()
         {
             using (ToDoDbContext context = _contextFactory.CreateDbContext())
             {
-                IEnumerable<T> entities = await context.Set<T>().ToListAsync();
+                ICollection<T> entities = await context.Set<T>().ToListAsync();
                 return entities;
             }
         }
 
+        public async Task<IEnumerable<T>> GetJoin(Func<T, bool> predicate, params Expression<Func<T, object>>[] includeProperties)
+        {
+            //var query = Include(includeProperties);
+
+            //return (await query.ToListAsync()).Where(predicate);
+            using (ToDoDbContext context = _contextFactory.CreateDbContext())
+            {
+                return new List<T>(context.Set<T>().Where(predicate));
+            }
+        }
+
+        private IQueryable<T> Include(params Expression<Func<T, object>>[] includeProperties)
+        {
+            using (ToDoDbContext context = _contextFactory.CreateDbContext())
+            {
+                IQueryable<T> query = context.Set<T>().AsNoTracking();
+
+                return includeProperties.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
+            }
+        }
+
+        public async Task<List<T>> GetJoin(Func<T, bool> func)
+        {
+            using (ToDoDbContext context = _contextFactory.CreateDbContext())
+            {
+                return new List<T>(context.Set<T>().Where(func));
+            }
+        }
     }
 }

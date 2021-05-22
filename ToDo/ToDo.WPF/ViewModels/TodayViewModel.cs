@@ -107,9 +107,9 @@ namespace ToDo.WPF.ViewModels
         // PROPERTIES END
 
         public ICommand CreateTaskCommand { get; set; }
-        public TodayViewModel(ITaskService taskService, IAccountStore accountStore, TaskSummaryViewModel taskViewModel, MessageViewModel errorMessageViewModel)
+        public TodayViewModel(ITaskService taskService, IAccountStore accountStore, IAccountService accountService, TaskSummaryViewModel taskViewModel, MessageViewModel errorMessageViewModel)
         {
-            CreateTaskCommand = new CreateTaskCommand(this, taskService, accountStore);
+            CreateTaskCommand = new CreateTaskCommand(this, taskService, accountStore, accountService);
             actualDay = DateTime.Now.ToString("dd");
             actualWeekDay = DateTime.Now.ToString("dddd");
             StartTimer();

@@ -12,7 +12,7 @@ namespace ToDo.Domain.Models
     public class AttachedImage : DomainBase
     {
         public int? TaskId { get; set; }
-        [ForeignKey("UserId")]
+        [ForeignKey("TaskId")]
         public Task Task { get; set; }
         public byte[] Image { get; set; }
     }

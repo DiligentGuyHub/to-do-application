@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\App.xaml
-22-601725873
+231691706593
 
-67-454336422
-240-587144615
-Controls\AccountPanel.xaml;Controls\ExchangeRateCard.xaml;Controls\ExchangeRateListing.xaml;Controls\NavigationBar.xaml;Controls\TaskCreation.xaml;Controls\TaskDescription.xaml;Controls\TaskSummary.xaml;MainWindow.xaml;Styles\Bluish.xaml;Styles\Classic.xaml;Styles\NavigationBar.xaml;Styles\Reddish.xaml;Styles\Settings.xaml;Styles\TaskCreation.xaml;Views\AccountView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MonthView.xaml;Views\RegisterView.xaml;Views\SettingsView.xaml;Views\TodayView.xaml;Views\WeekView.xaml;
+74-131037856
+241-1082795759
+Controls\AccountPanel.xaml;Controls\ExchangeRateCard.xaml;Controls\ExchangeRateListing.xaml;Controls\NavigationBar.xaml;Controls\TaskCreation.xaml;Controls\TaskDescription.xaml;Controls\TaskSummary.xaml;MainWindow.xaml;Styles\Bluish.xaml;Styles\Classic.xaml;Styles\NavigationBar.xaml;Styles\PinkyPie.xaml;Styles\Reddish.xaml;Styles\Settings.xaml;Styles\TaskCreation.xaml;Views\AccountView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MonthView.xaml;Views\RegisterView.xaml;Views\SettingsView.xaml;Views\TodayView.xaml;Views\WeekView.xaml;
 
 True
 

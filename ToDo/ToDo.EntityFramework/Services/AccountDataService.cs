@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using ToDo.Domain.Models;
@@ -10,52 +11,10 @@ using ToDo.EntityFramework.Services.Common;
 
 namespace ToDo.EntityFramework.Services
 {
-    public class AccountDataService : IAccountService
+    public class AccountDataService : GenericDataService<User>, IAccountService
     {
-        private readonly ToDoDbContextFactory _contextFactory;
-        private readonly NonQueryDataService<User> _nonQueryDataService;
-
-        public AccountDataService(ToDoDbContextFactory contextFactory)
+        public AccountDataService(ToDoDbContextFactory contextFactory, ToDoDbContext toDoDbContext) : base(contextFactory, toDoDbContext)
         {
-            _contextFactory = contextFactory;
-            _nonQueryDataService = new NonQueryDataService<User>(contextFactory);
-        }
-        // излишне
-        public async Task<User> Create(User entity)
-        {
-            return await _nonQueryDataService.Create(entity);
-        }
-
-        public async Task<bool> Delete(int id)
-        {
-            return await _nonQueryDataService.Delete(id);
-        }
-        public async Task<User> Update(int id, User entity)
-        {
-            return await _nonQueryDataService.Update(id, entity);
-        }
-
-        public async Task<User> Get(int id)
-        {
-            using (ToDoDbContext context = _contextFactory.CreateDbContext())
-            {
-                // include tasks
-                User entity = await context.Users
-                    .Include(a => a.Tasks)
-                    .FirstOrDefaultAsync((entity) => entity.Id == id);
-                return entity;
-            }
-        }
-
-        public async Task<IEnumerable<User>> GetAll()
-        {
-            using (ToDoDbContext context = _contextFactory.CreateDbContext())
-            {
-                IEnumerable<User> entities = await context.Users
-                    .Include(a => a.Tasks)
-                    .ToListAsync();
-                return entities;
-            }
         }
 
         public async Task<User> GetByUsername(string username)

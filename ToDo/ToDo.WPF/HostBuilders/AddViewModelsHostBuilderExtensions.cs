@@ -42,6 +42,7 @@ namespace ToDo.WPF.HostBuilders
                 services.AddSingleton<TodayViewModel>(services => new TodayViewModel(
                     services.GetRequiredService<ITaskService>(),
                     services.GetRequiredService<IAccountStore>(),
+                    services.GetRequiredService<IAccountService>(),
                     services.GetRequiredService<TaskSummaryViewModel>(),
                     services.GetRequiredService<MessageViewModel>()
                     ));
@@ -71,6 +72,7 @@ namespace ToDo.WPF.HostBuilders
                     return () => new AccountViewModel(
                         services.GetRequiredService<IAccountStore>(),
                         services.GetRequiredService<IAccountService>(),
+                        services.GetRequiredService<MessageViewModel>(),
                         services.GetRequiredService<MessageViewModel>());
                 });
 

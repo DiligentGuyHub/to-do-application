@@ -10,7 +10,7 @@ namespace ToDo.Domain.Models
     public class SubTask : DomainBase
     {
         public int? TaskId { get; set; }
-        [ForeignKey("UserId")]
+        [ForeignKey("TaskId")]
         public Task Task { get; set; }
         public string Header { get; set; }
     }

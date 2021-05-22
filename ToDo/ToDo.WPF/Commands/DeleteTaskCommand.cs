@@ -27,7 +27,7 @@ namespace ToDo.WPF.Commands
             {
                 if((string)parameter != "Description")
                 {
-                    await _taskService.DeleteTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTask);
+                    await _taskService.DeleteTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTaskInstance.Id);
                 }
                 else
                 {

@@ -1,6 +1,5 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <!-- Classic -->
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  Classic  -->
     <Color x:Key="ColorPrimary_1">#222831</Color>
     <Color x:Key="ColorPrimary_2">#393e46</Color>
     <Color x:Key="ColorHover">#ce1212</Color>
@@ -9,16 +8,20 @@
     <Color x:Key="ColorBackgroundReversed">#eeeeee</Color>
     <Color x:Key="ColorForegroundReversed">#000000</Color>
     <Color x:Key="ColorSecondary_2">#73B1D6</Color>
+    <Color x:Key="ColorError">#fb2323</Color>
 
-    <!--Brushes-->
-    <SolidColorBrush x:Key="BrushPrimary_1" Color="{StaticResource ColorPrimary_1}"/>
-    <SolidColorBrush x:Key="BrushPrimary_2" Color="{StaticResource ColorPrimary_2}"/>
-    <SolidColorBrush x:Key="BrushHover" Color="{StaticResource ColorHover}"/>
-    <SolidColorBrush x:Key="BrushActivated" Color="{StaticResource ColorActivated}"/>
-    <SolidColorBrush x:Key="BrushForeground" Color="{StaticResource ColorForeground}"/>
-    <SolidColorBrush x:Key="BrushBackgroundReversed" Color="{StaticResource ColorBackgroundReversed}"/>
-    <SolidColorBrush x:Key="BrushForegroundReversed" Color="{StaticResource ColorForegroundReversed}"/>
-    <SolidColorBrush x:Key="BrushSecondary_2" Color="{StaticResource ColorSecondary_2}"/>
-    
-    
+    <BitmapImage x:Key="HomeViewImage" UriSource="pack://application:,,,/Resources/Backgrounds/reddish-home-view.png" />
+
+
+    <!--  Brushes  -->
+    <SolidColorBrush x:Key="BrushPrimary_1" Color="{StaticResource ColorPrimary_1}" />
+    <SolidColorBrush x:Key="BrushPrimary_2" Color="{StaticResource ColorPrimary_2}" />
+    <SolidColorBrush x:Key="BrushHover" Color="{StaticResource ColorHover}" />
+    <SolidColorBrush x:Key="BrushActivated" Color="{StaticResource ColorActivated}" />
+    <SolidColorBrush x:Key="BrushForeground" Color="{StaticResource ColorForeground}" />
+    <SolidColorBrush x:Key="BrushBackgroundReversed" Color="{StaticResource ColorBackgroundReversed}" />
+    <SolidColorBrush x:Key="BrushForegroundReversed" Color="{StaticResource ColorForegroundReversed}" />
+    <SolidColorBrush x:Key="BrushSecondary_2" Color="{StaticResource ColorSecondary_2}" />
+    <SolidColorBrush x:Key="BrushError" Color="{StaticResource ColorError}" />
+
 </ResourceDictionary>

@@ -32,12 +32,9 @@ namespace ToDo.EntityFramework.Migrations
                     b.Property<int?>("TaskId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("TaskId");
 
                     b.ToTable("Files");
                 });
@@ -55,12 +52,9 @@ namespace ToDo.EntityFramework.Migrations
                     b.Property<int?>("TaskId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("TaskId");
 
                     b.ToTable("Images");
                 });
@@ -78,12 +72,9 @@ namespace ToDo.EntityFramework.Migrations
                     b.Property<int?>("TaskId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("TaskId");
 
                     b.ToTable("SubTask");
                 });
@@ -157,7 +148,7 @@ namespace ToDo.EntityFramework.Migrations
                 {
                     b.HasOne("ToDo.Domain.Models.Task", "Task")
                         .WithMany("Files")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("TaskId");
 
                     b.Navigation("Task");
                 });
@@ -166,7 +157,7 @@ namespace ToDo.EntityFramework.Migrations
                 {
                     b.HasOne("ToDo.Domain.Models.Task", "Task")
                         .WithMany("Images")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("TaskId");
 
                     b.Navigation("Task");
                 });
@@ -175,7 +166,7 @@ namespace ToDo.EntityFramework.Migrations
                 {
                     b.HasOne("ToDo.Domain.Models.Task", "Task")
                         .WithMany("Subtasks")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("TaskId");
 
                     b.Navigation("Task");
                 });

@@ -13,18 +13,19 @@ namespace ToDo.WPF.Commands
 {
     public class UpdateTaskCommand : AsyncCommandBase
     {
-        private ITaskService _taskService;
-        private IAccountStore _accountStore;
-        public UpdateTaskCommand(ITaskService taskService, IAccountStore accountStore)
+        private readonly ITaskService _taskService;
+        private readonly IAccountStore _accountStore;
+        private readonly IAccountService _accountService;
+
+        public UpdateTaskCommand(ITaskService taskService, IAccountStore accountStore, IAccountService accountService)
         {
             _taskService = taskService;
             _accountStore = accountStore;
+            _accountService = accountService;
         }
         public override async Task ExecuteAsync(object parameter)
         {
-            User user = await _taskService.UpdateTask(_accountStore.CurrentAccount);
-
-            _accountStore.CurrentAccount = user;
+            await _accountService.Update(_accountStore.CurrentAccount.Id, _accountStore.CurrentAccount);
         }
     }
 }

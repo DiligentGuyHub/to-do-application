@@ -81,6 +81,9 @@
     <Page Update="Styles\NavigationBar.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Styles\PinkyPie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\Settings.xaml">
       <SubType>Designer</SubType>
     </Page>

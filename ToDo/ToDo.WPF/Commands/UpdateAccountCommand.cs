@@ -21,17 +21,20 @@ namespace ToDo.WPF.Commands
         public override async Task ExecuteAsync(object parameter)
         {
             _accountViewModel.ResultMessage = string.Empty;
+            _accountViewModel.ErrorMessage = string.Empty;
 
             try
             {
                 await _accountService.Update(_accountViewModel.CurrentUser.Id, _accountViewModel.CurrentUser);
                 _accountViewModel.ResultMessage = "Account information updated successfully.";
+                _accountViewModel.ErrorMessage = string.Empty;
             }
             catch (Exception)
             {
+                _accountViewModel.ErrorMessage = "Account information wasn't updated.";
+                _accountViewModel.ResultMessage = string.Empty;
 
-                _accountViewModel.ResultMessage = "Account information wasn't updated."; ;
-            }           
+            }
         }
     }
 }

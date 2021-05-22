@@ -16,7 +16,7 @@
             Command="{Binding UpdateCurrentViewModelCommand}"
             CommandParameter="{x:Static nav:ViewType.Home}" />
     </UserControl.InputBindings>
-    <Grid Background="AliceBlue">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
@@ -35,6 +35,7 @@
                 x:Name="TaskViewBox"
                 ItemsSource="{Binding Tasks}"
                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                ScrollViewer.VerticalScrollBarVisibility="Visible"
                 SelectedIndex="{Binding SelectedTask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 VirtualizingStackPanel.ScrollUnit="Pixel">
                 <ListBox.InputBindings>
@@ -79,6 +80,7 @@
                                     TextWrapping="Wrap" />
                                 <TextBox
                                     Grid.Row="1"
+                                    MaxHeight="50"
                                     Padding="5,0"
                                     Background="Transparent"
                                     BorderThickness="0"
@@ -105,9 +107,8 @@
                                 VerticalAlignment="Top">
                                 <Image Width="35" Source="{Binding PriorityStatus}" />
                             </Grid>
+
                         </WrapPanel>
-
-
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
