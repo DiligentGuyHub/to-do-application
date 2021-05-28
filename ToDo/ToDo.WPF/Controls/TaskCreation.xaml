@@ -59,10 +59,14 @@
                         Grid.Column="1"
                         SelectedValue="{Binding Category, UpdateSourceTrigger=PropertyChanged}"
                         SelectedValuePath="Text">
-                        <TextBlock Text="Inbox" />
-                        <TextBlock Text="Category 1" />
-                        <TextBlock Text="Category 2" />
-                        <TextBlock Text="Category 3" />
+                        <TextBlock Text="Общая" />
+                        <TextBlock Text="Работа" />
+                        <TextBlock Text="Досуг" />
+                        <TextBlock Text="Финансы" />
+                        <TextBlock Text="Еда" />
+                        <TextBlock Text="Транспорт" />
+                        <TextBlock Text="Образ жизни" />
+                        <TextBlock Text="Семья" />
                     </ComboBox>
                     <ComboBox
                         Grid.Column="2"
@@ -71,15 +75,15 @@
                         <TextBlock
                             Margin="1,0,0,0"
                             VerticalAlignment="Center"
-                            Text="High" />
+                            Text="Высокий" />
                         <TextBlock
                             Margin="1,0,0,0"
                             VerticalAlignment="Center"
-                            Text="Medium" />
+                            Text="Средний" />
                         <TextBlock
                             Margin="1,0,0,0"
                             VerticalAlignment="Center"
-                            Text="Low" />
+                            Text="Низкий" />
                         <!--<ComboBoxItem>
                         <StackPanel Orientation="Horizontal">
                             <Image Width="25" Source="pack://application:,,,/Resources/Icons/priority-high.png"/>

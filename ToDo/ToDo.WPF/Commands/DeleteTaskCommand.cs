@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using ToDo.Domain.Models;
 using ToDo.Domain.Services;
 using ToDo.WPF.State.Accounts;
@@ -23,11 +24,11 @@ namespace ToDo.WPF.Commands
         }
         public override async System.Threading.Tasks.Task ExecuteAsync(object parameter)
         {
+            await _taskService.DeleteTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTaskInstance.Id);
             try
             {
                 if((string)parameter != "Description")
                 {
-                    await _taskService.DeleteTask(_accountStore.CurrentAccount, _taskSummaryViewModel.SelectedTaskInstance.Id);
                 }
                 else
                 {
@@ -38,7 +39,7 @@ namespace ToDo.WPF.Commands
             }
             catch(Exception e)
             {
-
+                MessageBox.Show(e.Message);
             }
         }
     }

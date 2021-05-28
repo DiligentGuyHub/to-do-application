@@ -26,12 +26,12 @@ namespace ToDo.WPF.Commands
             try
             {
                 await _accountService.Update(_accountViewModel.CurrentUser.Id, _accountViewModel.CurrentUser);
-                _accountViewModel.ResultMessage = "Account information updated successfully.";
+                _accountViewModel.ResultMessage = "Информация обновлена успешно";
                 _accountViewModel.ErrorMessage = string.Empty;
             }
             catch (Exception)
             {
-                _accountViewModel.ErrorMessage = "Account information wasn't updated.";
+                _accountViewModel.ErrorMessage = "Ошибка обновления информации";
                 _accountViewModel.ResultMessage = string.Empty;
 
             }

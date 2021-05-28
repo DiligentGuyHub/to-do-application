@@ -62,26 +62,6 @@ namespace ToDo.EntityFramework.Migrations
                     b.ToTable("Images");
                 });
 
-            modelBuilder.Entity("ToDo.Domain.Models.SubTask", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Header")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("TaskId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TaskId");
-
-                    b.ToTable("SubTask");
-                });
-
             modelBuilder.Entity("ToDo.Domain.Models.Task", b =>
                 {
                     b.Property<int>("Id")
@@ -165,15 +145,6 @@ namespace ToDo.EntityFramework.Migrations
                     b.Navigation("Task");
                 });
 
-            modelBuilder.Entity("ToDo.Domain.Models.SubTask", b =>
-                {
-                    b.HasOne("ToDo.Domain.Models.Task", "Task")
-                        .WithMany("Subtasks")
-                        .HasForeignKey("TaskId");
-
-                    b.Navigation("Task");
-                });
-
             modelBuilder.Entity("ToDo.Domain.Models.Task", b =>
                 {
                     b.HasOne("ToDo.Domain.Models.User", "Account")
@@ -190,8 +161,6 @@ namespace ToDo.EntityFramework.Migrations
                     b.Navigation("Files");
 
                     b.Navigation("Images");
-
-                    b.Navigation("Subtasks");
                 });
 
             modelBuilder.Entity("ToDo.Domain.Models.User", b =>

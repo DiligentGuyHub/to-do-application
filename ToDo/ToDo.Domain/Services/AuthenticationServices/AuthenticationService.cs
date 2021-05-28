@@ -21,6 +21,12 @@ namespace ToDo.Domain.Services.AuthenticationServices
 
         public async Task<User> Login(string username, string password)
         {
+
+            if (String.IsNullOrEmpty(username) || String.IsNullOrEmpty(password))
+            {
+                throw new EmptyFieldsException();
+            }
+
             User storedAccount = await _accountService.GetByUsername(username);
             if(storedAccount == null)
             {
@@ -39,6 +45,11 @@ namespace ToDo.Domain.Services.AuthenticationServices
         public async Task<RegistrationResult> Register(string email, string username, string password, string confirmepassword)
         {
             RegistrationResult result = RegistrationResult.Success;
+
+            if (String.IsNullOrEmpty(email) || String.IsNullOrEmpty(username) || String.IsNullOrEmpty(password) || String.IsNullOrEmpty(confirmepassword))
+            {
+                result = RegistrationResult.EmptyFields;
+            }
 
             if (password != confirmepassword)
             {

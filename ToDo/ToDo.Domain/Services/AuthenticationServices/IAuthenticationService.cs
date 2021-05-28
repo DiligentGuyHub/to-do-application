@@ -12,7 +12,8 @@ namespace ToDo.Domain.Services
         Success,
         PasswordsDoNotMatch,
         EmailAlreadyExists,
-        UsernameAlreadyExists
+        UsernameAlreadyExists,
+        EmptyFields
     }
 
     public interface IAuthenticationService

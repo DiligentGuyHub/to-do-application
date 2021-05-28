@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:ToDo.WPF.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:validation="clr-namespace:ToDo.WPF.Validation"
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
@@ -64,7 +65,7 @@
                         Grid.Column="0"
                         FontSize="16"
                         Foreground="{StaticResource BrushForeground}"
-                        Text="Email" />
+                        Text="Почта" />
                     <Border
                         Grid.Column="1"
                         Margin="20,0"
@@ -74,8 +75,15 @@
                             Background="Transparent"
                             BorderBrush="Transparent"
                             FontSize="14"
-                            Foreground="{StaticResource BrushForeground}"
-                            Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}" />
+                            Foreground="{StaticResource BrushForeground}">
+                            <TextBox.Text>
+                                <Binding Path="Email" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validation:EmailValidationRule />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox.Text>
+                        </TextBox>
                     </Border>
                 </Grid>
 
@@ -89,7 +97,7 @@
                         Grid.Column="0"
                         FontSize="16"
                         Foreground="{StaticResource BrushForeground}"
-                        Text="Username" />
+                        Text="Логин" />
                     <Border
                         Grid.Column="1"
                         Margin="20,0"
@@ -113,7 +121,7 @@
                         Grid.Column="0"
                         FontSize="16"
                         Foreground="{StaticResource BrushForeground}"
-                        Text="Password" />
+                        Text="Пароль" />
                     <Border
                         Grid.Column="1"
                         Margin="20,0"
@@ -151,7 +159,7 @@
                         Grid.Column="0"
                         FontSize="16"
                         Foreground="{StaticResource BrushForeground}"
-                        Text="Confirm password" />
+                        Text="Повторите пароль" />
                     <Border
                         Grid.Column="1"
                         Margin="20,0"
@@ -177,7 +185,7 @@
                     HorizontalAlignment="Center"
                     BorderBrush="Transparent"
                     Command="{Binding RegisterCommand}"
-                    Content="Register"
+                    Content="Зарегистрироваться"
                     FontSize="16"
                     Foreground="{StaticResource BrushForeground}"
                     IsDefault="True">
@@ -193,7 +201,7 @@
                     Background="Transparent"
                     BorderBrush="Transparent"
                     Command="{Binding ViewLoginCommand}"
-                    Content="Already have an account"
+                    Content="Уже есть аккаунт?"
                     FontSize="16"
                     Foreground="{StaticResource BrushForeground}" />
             </Grid>

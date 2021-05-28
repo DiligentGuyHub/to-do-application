@@ -25,8 +25,7 @@ namespace ToDo.EntityFramework.Services.Common
             string description = null,
             bool isCompleted = false,
             ICollection<AttachedImage> images = null,
-            ICollection<AttachedFile> files = null,
-            ICollection<SubTask> subTasks = null
+            ICollection<AttachedFile> files = null
             )
         {
             if (!string.IsNullOrEmpty(header) &&
@@ -43,8 +42,7 @@ namespace ToDo.EntityFramework.Services.Common
                     Deadline = deadline,
                     IsCompleted = isCompleted,
                     Images = images,
-                    Files = files,
-                    Subtasks = subTasks
+                    Files = files
                 };
 
                 await Create(task);
@@ -76,8 +74,7 @@ namespace ToDo.EntityFramework.Services.Common
                 Task.Description,
                 Task.IsCompleted,
                 Task.Images,
-                Task.Files,
-                Task.Subtasks
+                Task.Files
             );
 
             return account;

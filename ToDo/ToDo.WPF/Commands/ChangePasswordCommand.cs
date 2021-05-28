@@ -33,19 +33,19 @@ namespace ToDo.WPF.Commands
             if (passwordVerificationResult != PasswordVerificationResult.Success)
             {
                 _accountViewModel.ResultMessage = string.Empty;
-                _accountViewModel.ErrorMessage = "Previous password is incorrect";
+                _accountViewModel.ErrorMessage = "Неверно введен предыдущий пароль";
                 return;
             }
             if(_accountViewModel.UpdatedPassword != _accountViewModel.ConfirmationPassword)
             {
                 _accountViewModel.ResultMessage = string.Empty;
-                _accountViewModel.ErrorMessage = "Confirmation password must match updated password";
+                _accountViewModel.ErrorMessage = "Новые пароли обязаны соответствовать";
                 return;
             }
             _accountViewModel.CurrentUser.PasswordHash =  _passwordHasher.HashPassword(_accountViewModel.UpdatedPassword);
             
             await _accountService.Update(_accountViewModel.CurrentUser.Id, _accountViewModel.CurrentUser);
-            _accountViewModel.ResultMessage = "Account password updated successfully.";
+            _accountViewModel.ResultMessage = "Пароль от аккаунта успешно обновлен";
             _accountViewModel.ErrorMessage = string.Empty;
 
         }

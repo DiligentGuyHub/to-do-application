@@ -38,17 +38,20 @@ namespace ToDo.WPF.Commands
                 case RegistrationResult.Success:
                     _renavigator.Renavigate();
                     break;
+                case RegistrationResult.EmptyFields:
+                    _registerViewModel.ErrorMessage = "Все поля должны быть верно заполнены";
+                    break;
                 case RegistrationResult.PasswordsDoNotMatch:
-                    _registerViewModel.ErrorMessage = "Confirm password does not match origin password.";
+                    _registerViewModel.ErrorMessage = "Пароли обязаны соответствовать";
                     break;
                 case RegistrationResult.EmailAlreadyExists:
-                    _registerViewModel.ErrorMessage = "An account with this email already exists.";
+                    _registerViewModel.ErrorMessage = "Аккаунт с заданным email уже существует";
                     break;
                 case RegistrationResult.UsernameAlreadyExists:
-                    _registerViewModel.ErrorMessage = "An account with this username already exists.";
+                    _registerViewModel.ErrorMessage = "Аккаунт с заданным логином уже существует";
                     break;
                 default:
-                    _registerViewModel.ErrorMessage = "Registration failed.";
+                    _registerViewModel.ErrorMessage = "Ошибка регистрации";
                     break;
             }
         }

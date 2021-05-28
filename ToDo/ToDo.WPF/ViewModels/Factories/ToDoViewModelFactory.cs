@@ -11,8 +11,6 @@ namespace ToDo.WPF.ViewModels.Factories
     {
         private readonly CreateViewModel<HomeViewModel> _createHomeViewModel;
         private readonly CreateViewModel<TodayViewModel> _createTodayViewModel;
-        private readonly CreateViewModel<WeekViewModel> _createWeekViewModel;
-        private readonly CreateViewModel<MonthViewModel> _createMonthViewModel;
         private readonly CreateViewModel<LoginViewModel> _createLoginViewModel;
         private readonly CreateViewModel<SettingsViewModel> _createSettingsViewModel;
         private readonly CreateViewModel<AccountViewModel> _createAccountViewModel;
@@ -23,9 +21,7 @@ namespace ToDo.WPF.ViewModels.Factories
                                     CreateViewModel<SettingsViewModel> createSettingsViewModel,
                                     CreateViewModel<TodayViewModel> createTodayViewModel,
                                     CreateViewModel<AccountViewModel> createAccountViewModel,
-                                    CreateViewModel<TaskSummaryViewModel> createTaskDescriptionViewModel, 
-                                    CreateViewModel<WeekViewModel> createWeekViewModel, 
-                                    CreateViewModel<MonthViewModel> createMonthViewModel)
+                                    CreateViewModel<TaskSummaryViewModel> createTaskDescriptionViewModel)
         {
             _createHomeViewModel = createHomeViewModel;
             _createLoginViewModel = createLoginViewModel;
@@ -33,8 +29,6 @@ namespace ToDo.WPF.ViewModels.Factories
             _createTodayViewModel = createTodayViewModel;
             _createAccountViewModel = createAccountViewModel;
             _createTaskDescriptionViewModel = createTaskDescriptionViewModel;
-            _createWeekViewModel = createWeekViewModel;
-            _createMonthViewModel = createMonthViewModel;
         }
 
         public ViewModelBase CreateViewModel(ViewType viewType)
@@ -53,10 +47,6 @@ namespace ToDo.WPF.ViewModels.Factories
                     return _createHomeViewModel();
                 case ViewType.Today:
                     return _createTodayViewModel();
-                case ViewType.Week:
-                    return _createWeekViewModel();
-                case ViewType.Month:
-                    return _createMonthViewModel();
                 default: throw new ArgumentException("The ViewType does not have a ViewModel", "viewType");
             }
         }

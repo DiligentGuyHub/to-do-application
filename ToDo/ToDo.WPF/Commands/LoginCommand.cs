@@ -37,7 +37,11 @@ namespace ToDo.WPF.Commands
             }
             catch(InvalidLoginOrPasswordException)
             {
-                _loginViewModel.ErrorMessage = "Username and/or password is incorrect.";
+                _loginViewModel.ErrorMessage = "Неверный логин и/или пароль";
+            }
+            catch (EmptyFieldsException)
+            {
+                _loginViewModel.ErrorMessage = "Все поля должны быть заполнены";
             }
         }
     }

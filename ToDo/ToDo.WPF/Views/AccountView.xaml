@@ -32,7 +32,7 @@
                 <TextBlock
                     Padding="0,0,0,10"
                     FontSize="48"
-                    Text="Account" />
+                    Text="Профиль" />
             </Border>
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
@@ -64,7 +64,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Email" />
+                            Text="Почта" />
                         <TextBox
                             Grid.Row="0"
                             Grid.Column="1"
@@ -76,7 +76,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Username" />
+                            Text="Логин" />
                         <TextBox
                             Grid.Row="1"
                             Grid.Column="1"
@@ -88,7 +88,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Account rights" />
+                            Text="Права пользователя" />
                         <TextBox
                             Grid.Row="2"
                             Grid.Column="1"
@@ -102,7 +102,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Registration date" />
+                            Text="Дата регистрации" />
                         <TextBox
                             Grid.Row="3"
                             Grid.Column="1"
@@ -115,10 +115,12 @@
                             Grid.Row="4"
                             Grid.ColumnSpan="2"
                             Margin="10,5"
+                            Background="{StaticResource BrushHover}"
                             Command="{Binding UpdateAccountCommand}"
                             CommandParameter="{Binding CurrentUser}"
-                            Content="Update"
-                            FontSize="16" />
+                            Content="Обновить"
+                            FontSize="16"
+                            Foreground="{StaticResource BrushForeground}" />
                     </Grid>
                 </Border>
                 <Border
@@ -141,7 +143,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Previous password" />
+                            Text="Предыдущий пароль" />
                         <components:BindablePasswordBox
                             Grid.Row="0"
                             Grid.Column="1"
@@ -155,7 +157,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Updated password" />
+                            Text="Новый пароль" />
                         <components:BindablePasswordBox
                             Grid.Row="1"
                             Grid.Column="1"
@@ -168,7 +170,7 @@
                             Grid.Column="0"
                             Margin="10,5"
                             FontSize="16"
-                            Text="Confirm new password" />
+                            Text="Повторите новый пароль" />
                         <components:BindablePasswordBox
                             Grid.Row="2"
                             Grid.Column="1"
@@ -180,9 +182,11 @@
                             Grid.Row="3"
                             Grid.ColumnSpan="2"
                             Margin="10,5"
+                            Background="{StaticResource BrushHover}"
                             Command="{Binding ChangePasswordCommand}"
-                            Content="Change password"
-                            FontSize="16" />
+                            Content="Сменить пароль"
+                            FontSize="16"
+                            Foreground="{StaticResource BrushForeground}" />
                     </Grid>
                 </Border>
                 <TextBlock
@@ -212,17 +216,19 @@
                     <StackPanel Orientation="Vertical">
                         <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Users}">
                             <DataGrid.Columns>
-                                <DataGridTextColumn Binding="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Header="Username" />
-                                <DataGridTextColumn Binding="{Binding Email, UpdateSourceTrigger=PropertyChanged}" Header="Email" />
-                                <DataGridTextColumn Binding="{Binding Role, UpdateSourceTrigger=PropertyChanged}" Header="Account Rights" />
-                                <DataGridTextColumn Binding="{Binding DateJoined, UpdateSourceTrigger=PropertyChanged}" Header="Registration date" />
-                                <DataGridCheckBoxColumn Binding="{Binding Status, UpdateSourceTrigger=PropertyChanged}" Header="Active" />
+                                <DataGridTextColumn Binding="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Header="Логин" />
+                                <DataGridTextColumn Binding="{Binding Email, UpdateSourceTrigger=PropertyChanged}" Header="Почта" />
+                                <DataGridTextColumn Binding="{Binding Role, UpdateSourceTrigger=PropertyChanged}" Header="Права пользователя" />
+                                <DataGridTextColumn Binding="{Binding DateJoined, UpdateSourceTrigger=PropertyChanged}" Header="Дата регистрации" />
+                                <DataGridCheckBoxColumn Binding="{Binding Status, UpdateSourceTrigger=PropertyChanged}" Header="Статус" />
                             </DataGrid.Columns>
                         </DataGrid>
                         <Button
+                            Background="{StaticResource BrushHover}"
                             Command="{Binding UpdateAllAccountsCommand}"
                             CommandParameter="{Binding Users}"
-                            Content="Update" />
+                            Content="Обновить"
+                            Foreground="{StaticResource BrushForeground}" />
                     </StackPanel>
 
                 </Border>

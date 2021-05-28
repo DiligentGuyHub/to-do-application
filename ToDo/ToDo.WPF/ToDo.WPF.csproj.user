@@ -37,16 +37,10 @@
     <Compile Update="Views\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\MonthView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Views\RegisterView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\TodayView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\WeekView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -99,16 +93,10 @@
     <Page Update="Views\HomeView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\MonthView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Views\RegisterView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\TodayView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\WeekView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

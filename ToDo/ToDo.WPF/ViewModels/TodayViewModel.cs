@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,7 @@ namespace ToDo.WPF.ViewModels
 {
     public class TodayViewModel : ViewModelBase
     {
-        public TodayTaskSummaryViewModel TaskSummaryViewModel { get; }
+        public TaskSummaryViewModel TaskSummaryViewModel { get; }
 
         private string _task;
         public string Task
@@ -106,11 +107,12 @@ namespace ToDo.WPF.ViewModels
         // PROPERTIES END
 
         public ICommand CreateTaskCommand { get; set; }
-        public TodayViewModel(ITaskService taskService, IAccountStore accountStore, IAccountService accountService, TodayTaskSummaryViewModel taskViewModel, MessageViewModel errorMessageViewModel)
+        public TodayViewModel(ITaskService taskService, IAccountStore accountStore, IAccountService accountService, TaskSummaryViewModel taskViewModel, MessageViewModel errorMessageViewModel)
         {
             CreateTaskCommand = new CreateTaskCommand(this, taskService, accountStore, accountService);
             actualDay = DateTime.Now.ToString("dd");
-            actualWeekDay = DateTime.Now.ToString("dddd");
+            string weekday = CultureInfo.GetCultureInfo("ru-Ru").DateTimeFormat.GetDayName(DateTime.Now.DayOfWeek);
+            actualWeekDay = weekday.ToUpper()[0] + weekday.Substring(1);
             StartTimer();
             TaskSummaryViewModel = taskViewModel;
             ErrorMessageViewModel = errorMessageViewModel;
@@ -128,7 +130,9 @@ namespace ToDo.WPF.ViewModels
         private void GetActualTime(object sender, EventArgs e)
         {
             actualDay = DateTime.Now.ToString("dd");
-            actualWeekDay = DateTime.Now.ToString("dddd");
+            string weekday = CultureInfo.GetCultureInfo("ru-Ru").DateTimeFormat.GetDayName(DateTime.Now.DayOfWeek);
+            actualWeekDay = weekday.ToUpper()[0] + weekday.Substring(1);
+            //actualWeekDay = DateTime.Now.ToString("dddd");
         }
     }
 }

@@ -11,8 +11,8 @@ namespace ToDo.Domain.Models
 {
     public class Task : DomainBase
     {
-        [ForeignKey("UserId")]
         public int UserId { get; set; }
+        [ForeignKey("UserId")]
         public User Account { get; set; }
         public string Header { get; set; }
         public string Category { get; set; }
@@ -22,6 +22,5 @@ namespace ToDo.Domain.Models
         public bool IsCompleted { get; set; }
         public ICollection<AttachedImage> Images { get; set; }
         public ICollection<AttachedFile> Files { get; set; }
-        public ICollection<SubTask> Subtasks { get; set; }
     }
 }

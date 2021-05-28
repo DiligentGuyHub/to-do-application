@@ -289,9 +289,7 @@ C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.g.cs
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.g.cs
-C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.g.cs
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.g.cs
-C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.g.cs
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF_MarkupCompile.cache
@@ -302,9 +300,7 @@ C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Controls\NavigationBar.baml
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\MainWindow.baml
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\HomeView.baml
-C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\MonthView.baml
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\TodayView.baml
-C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\Views\WeekView.baml
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.g.resources
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\longr\OneDrive\Documents\C#\WPF\ToDo\ToDo.WPF\obj\Debug\net5.0-windows\ToDo.WPF.AssemblyInfoInputs.cache

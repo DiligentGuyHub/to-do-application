@@ -53,19 +53,7 @@
             <controls:ExchangeRateListing DataContext="{Binding ExchangeRateListingViewModel}" />
         </Border>
         <Border Grid.Row="2">
-
-            <WrapPanel>
-                <controls:TaskSummary Grid.Column="0" DataContext="{Binding TaskSummaryViewModel}" />
-                <Grid Grid.Row="3" Grid.Column="1">
-                    <Image
-                        Width="400"
-                        Margin="0,0,10,0"
-                        Source="{StaticResource HomeViewImage}" />
-                </Grid>
-            </WrapPanel>
-
-
-
+            <controls:TaskSummary Grid.Column="0" DataContext="{Binding TaskSummaryViewModel}" />
         </Border>
 
     </Grid>

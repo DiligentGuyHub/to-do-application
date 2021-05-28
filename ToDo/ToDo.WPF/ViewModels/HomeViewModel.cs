@@ -78,13 +78,13 @@ namespace ToDo.WPF.ViewModels
             Username = authenticator.CurrentUser.Username;
             actualTime = DateTime.Now.ToString("HH:mm");
             if (DateTime.Now.Hour >= 0 && DateTime.Now.Hour <= 6)
-                actualGreeting = $"Hello, moon rider";
+                actualGreeting = $"Ну привет, полуночный странник";
             else if (DateTime.Now.Hour > 6 && DateTime.Now.Hour <= 12)
-                actualGreeting = $"Good morning, {Username}";
+                actualGreeting = $"Доброе утро, {Username}";
             else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour <= 16)
-                actualGreeting = $"Good afternoon, {Username}";
+                actualGreeting = $"Добрый день, {Username}";
             else if (DateTime.Now.Hour > 16)
-                actualGreeting = $"Good evening, {Username}";
+                actualGreeting = $"Добрый вечер, {Username}";
             StartTimer();
         }
         private void StartTimer()
@@ -101,13 +101,13 @@ namespace ToDo.WPF.ViewModels
         {
             actualTime = DateTime.Now.ToString("HH:mm");
             if (DateTime.Now.Hour >= 0 && DateTime.Now.Hour <= 6)
-                actualGreeting = $"Hello, moon rider";
+                actualGreeting = $"Ну привет, полуночный странник";
             else if (DateTime.Now.Hour > 6 && DateTime.Now.Hour <= 12)
-                actualGreeting = $"Good morning, {Username}";
+                actualGreeting = $"Доброе утро, {Username}";
             else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour <= 16)
-                actualGreeting = $"Good afternoon, {Username}";
+                actualGreeting = $"Добрый день, {Username}";
             else if (DateTime.Now.Hour > 16)
-                actualGreeting = $"Good evening, {Username}";
+                actualGreeting = $"Добрый вечер, {Username}";
         }
     }
 }

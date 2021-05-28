@@ -33,14 +33,6 @@
                 <views:TodayView />
             </DataTemplate>
 
-            <DataTemplate DataType="{x:Type viewmodels:WeekViewModel}">
-                <views:WeekView />
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewmodels:MonthViewModel}">
-                <views:MonthView />
-            </DataTemplate>
-
             <DataTemplate DataType="{x:Type viewmodels:AccountViewModel}">
                 <views:AccountView />
             </DataTemplate>

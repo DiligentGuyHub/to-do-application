@@ -102,35 +102,30 @@
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
                 Command="{Binding UpdateCurrentViewModelCommand}"
-                CommandParameter="{x:Static nav:ViewType.Home}"
-                Content="Home"
-                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:HomeViewModel}}" />
-            <!--<RadioButton Grid.Row="1" Content="Inbox"
-                         IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:InboxViewModel}}"
-                         Command="{Binding UpdateCurrentViewModelCommand}"
-                         CommandParameter="{x:Static nav:ViewType.Inbox}">
-            </RadioButton>-->
+                CommandParameter="{x:Static nav:ViewType.Account}"
+                Content="Профиль"
+                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:AccountViewModel}}" />
             <RadioButton
                 Grid.Row="1"
                 Grid.ColumnSpan="2"
                 Command="{Binding UpdateCurrentViewModelCommand}"
-                CommandParameter="{x:Static nav:ViewType.Today}"
-                Content="Today"
-                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:TodayViewModel}}" />
+                CommandParameter="{x:Static nav:ViewType.Home}"
+                Content="Главная"
+                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:HomeViewModel}}" />
             <RadioButton
                 Grid.Row="2"
                 Grid.ColumnSpan="2"
                 Command="{Binding UpdateCurrentViewModelCommand}"
-                CommandParameter="{x:Static nav:ViewType.Week}"
-                Content="Week"
-                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:WeekViewModel}}" />
+                CommandParameter="{x:Static nav:ViewType.Today}"
+                Content="Мои задачи"
+                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:TodayViewModel}}" />
             <RadioButton
                 Grid.Row="3"
                 Grid.ColumnSpan="2"
                 Command="{Binding UpdateCurrentViewModelCommand}"
-                CommandParameter="{x:Static nav:ViewType.Month}"
-                Content="Month"
-                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:MonthViewModel}}" />
+                CommandParameter="{x:Static nav:ViewType.Settings}"
+                Content="Настройки"
+                IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type viewmodels:SettingsViewModel}}" />
         </Grid>
 
     </Grid>

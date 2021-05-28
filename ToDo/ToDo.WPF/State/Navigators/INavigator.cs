@@ -17,10 +17,7 @@ namespace ToDo.WPF.State.Navigators
         Settings,
         Task,
         Home,
-        Inbox,
-        Today,
-        Week,
-        Month
+        Today
     }
     public interface INavigator
     {

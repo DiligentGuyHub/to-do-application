@@ -24,7 +24,6 @@ namespace ToDo.WPF.HostBuilders
 
                 services.AddScoped<AccountViewModel>();
                 services.AddScoped<TaskSummaryViewModel>();
-                services.AddScoped<TodayTaskSummaryViewModel>();
                 services.AddScoped<SettingsViewModel>();
                 services.AddSingleton<MessageViewModel>();
                 services.AddScoped<MainViewModel>();
@@ -44,21 +43,6 @@ namespace ToDo.WPF.HostBuilders
                     services.GetRequiredService<ITaskService>(),
                     services.GetRequiredService<IAccountStore>(),
                     services.GetRequiredService<IAccountService>(),
-                    services.GetRequiredService<TodayTaskSummaryViewModel>(),
-                    services.GetRequiredService<MessageViewModel>()
-                    ));
-
-                services.AddSingleton<WeekViewModel>(services => new WeekViewModel(
-                    services.GetRequiredService<ITaskService>(),
-                    services.GetRequiredService<IAccountStore>(),
-                    services.GetRequiredService<IAccountService>(),
-                    services.GetRequiredService<TaskSummaryViewModel>(),
-                    services.GetRequiredService<MessageViewModel>()
-                    ));
-                services.AddSingleton<MonthViewModel>(services => new MonthViewModel(
-                    services.GetRequiredService<ITaskService>(),
-                    services.GetRequiredService<IAccountStore>(),
-                    services.GetRequiredService<IAccountService>(),
                     services.GetRequiredService<TaskSummaryViewModel>(),
                     services.GetRequiredService<MessageViewModel>()
                     ));
@@ -71,16 +55,6 @@ namespace ToDo.WPF.HostBuilders
                 services.AddSingleton<CreateViewModel<TodayViewModel>>(services =>
                 {
                     return () => services.GetRequiredService<TodayViewModel>();
-                });
-
-                services.AddSingleton<CreateViewModel<WeekViewModel>>(services =>
-                {
-                    return () => services.GetRequiredService<WeekViewModel>();
-                });
-
-                services.AddSingleton<CreateViewModel<MonthViewModel>>(services =>
-                {
-                    return () => services.GetRequiredService<MonthViewModel>();
                 });
 
                 services.AddSingleton<CreateViewModel<SettingsViewModel>>(services =>

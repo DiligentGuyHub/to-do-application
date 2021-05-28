@@ -11,8 +11,9 @@ namespace ToDo.Domain.Models
 {
     public class AttachedFile : DomainBase
     {
-        [ForeignKey("TaskId")]
         public int? TaskId { get; set; }
+        [ForeignKey("TaskId")]
+        public Task Task { get; set; }
         public string Filename { get; set; }
         public byte[] File{ get; set; }
 

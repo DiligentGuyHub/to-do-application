@@ -101,7 +101,7 @@
                         VerticalContentAlignment="Center"
                         BorderBrush="Transparent"
                         Command="{Binding UploadFileCommand}"
-                        Content="file"
+                        Content="Файл"
                         FontSize="36">
                         <Button.Background>
                             <SolidColorBrush Opacity="0.5" Color="{StaticResource ColorHover}" />

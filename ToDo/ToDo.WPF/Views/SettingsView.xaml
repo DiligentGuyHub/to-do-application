@@ -25,10 +25,7 @@
             Margin="10,10"
             BorderBrush="{StaticResource BrushActivated}"
             BorderThickness="0,0,0,2">
-            <TextBlock
-                Padding="0,0,0,10"
-                FontSize="48"
-                Text="Settings" />
+            <TextBlock Padding="0,0,0,10" FontSize="48"><Run Language="ru-ru" Text="Настройки" /></TextBlock>
         </Border>
         <Grid Grid.Row="1" Margin="10,10">
             <Grid.RowDefinitions>
@@ -37,16 +34,7 @@
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="auto" />
             </Grid.RowDefinitions>
-            <CheckBox
-                x:Name="checkbox1"
-                Grid.Row="0"
-                Content="Check it out" />
             <WrapPanel>
-
-
-                <!--<RadioButton Content="Reddish theme"
-                                 Command="{Binding UpdateCurrentThemeCommand}"
-                                 CommandParameter="Reddish"/>-->
                 <Button
                     x:Name="Reddish"
                     Grid.Column="0"

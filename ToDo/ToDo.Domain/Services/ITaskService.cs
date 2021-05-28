@@ -18,8 +18,7 @@ namespace ToDo.Domain.Services
             string description = null,
             bool isCompleted = false,
             ICollection<AttachedImage> images = null,
-            ICollection<AttachedFile> files = null,
-            ICollection<SubTask> subTasks = null);
+            ICollection<AttachedFile> files = null);
         Task<User> DeleteTask(User account, int id);
         Task<User> DuplicateTask(User account, int id);
     }
