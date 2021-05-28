@@ -20,21 +20,28 @@ namespace ToDo.WPF.ViewModels
 {
     public class TaskSummaryViewModel : ViewModelBase
     {
-
-        private readonly INavigator _navigator; 
-        private readonly ITaskService _taskService;
-        private readonly IImageService _imageService;
-        private readonly IGenericStore<AttachedImage> _imageStore;
-        private readonly IAccountStore _accountStore;
-        private readonly IToDoViewModelFactory _viewModelFactory;
-        private readonly TaskStore _taskStore;
         private readonly ToDoDbContext _context;
         private readonly ToDoDbContextFactory _contextFactory;
+        private readonly IToDoViewModelFactory _viewModelFactory;
+
+        private readonly INavigator _navigator; 
+
+        private readonly ITaskService _taskService;
+        private readonly IFileService _fileService;
+        private readonly IImageService _imageService;
+
+        private readonly IGenericStore<AttachedImage> _imageStore;
+        private readonly IGenericStore<AttachedFile> _fileStore;
+        private readonly TaskStore _taskStore;
+        private readonly IAccountStore _accountStore;
+
+
         public ICommand UpdateTaskCommand { get; }
         public ICommand DeleteTaskCommand { get; }
         public ICommand DuplicateTaskCommand { get; }
         public ICommand UpdateCurrentViewModelCommand { get; }
         public ICommand UploadImageCommand { get; }
+        public ICommand UploadFileCommand { get; }
 
         public ViewModelBase CurrentViewModel => _navigator.CurrentViewModel;
 
@@ -52,6 +59,19 @@ namespace ToDo.WPF.ViewModels
             {
                 _images = value;
                 OnPropertyChanged(nameof(Images));
+            }
+        }
+        private List<AttachedFile> _files;
+        public List<AttachedFile> Files
+        {
+            get
+            {
+                return _files;
+            }
+            set
+            {
+                _files = value;
+                OnPropertyChanged(nameof(Files));
             }
         }
 
@@ -80,23 +100,30 @@ namespace ToDo.WPF.ViewModels
             {
                 _selectedTask = Tasks[value].Id;
                 SelectedTaskInstance = Tasks.Where(item => item.Id == _selectedTask).FirstOrDefault();
+
+                // uploading attached images for selected task
                 _imageStore.LoadWithJoin(item => item.TaskId == _selectedTask);
                 Images = _imageStore.Domains;
+                // uploading attached files for selected task
+                _fileStore.LoadWithJoin(item => item.TaskId == _selectedTask);
+                Files = _fileStore.Domains;
+
                 OnPropertyChanged(nameof(SelectedTask));
             }
         }
 
 
-        public TaskSummaryViewModel(TaskStore taskStore, ToDoDbContextFactory contextFactory, ITaskService taskService, IAccountStore accountStore, IAccountService accountService, INavigator navigator, IToDoViewModelFactory viewModelFactory, IImageService imageService)
+        public TaskSummaryViewModel(TaskStore taskStore, ToDoDbContextFactory contextFactory, ITaskService taskService, IAccountStore accountStore, IAccountService accountService, INavigator navigator, IToDoViewModelFactory viewModelFactory, IImageService imageService, IFileService fileService)
         {
             _contextFactory = contextFactory;
             _navigator = navigator;
             _navigator.StateChanged += Navigator_StateChanged;
-            
+
 
             _viewModelFactory = viewModelFactory;
             _context = _contextFactory.CreateDbContext();
-            UploadImageCommand = new UploadImageCommand(taskService, accountStore, this);
+            UploadImageCommand = new UploadImageCommand(accountStore, this, imageService, accountService);
+            UploadFileCommand = new UploadFileCommand(accountStore, this, fileService, accountService);
             UpdateTaskCommand = new UpdateTaskCommand(taskService, accountStore, accountService);
             DeleteTaskCommand = new DeleteTaskCommand(this, taskService, accountStore);
             DuplicateTaskCommand = new DuplicateTaskCommand(this, taskService, accountService, accountStore);
@@ -106,7 +133,10 @@ namespace ToDo.WPF.ViewModels
             _accountStore = accountStore;
             _taskStore = taskStore;
             _imageService = imageService;
+            _fileService = fileService;
+
             _imageStore = new GenericStore<Domain.Models.AttachedImage>(_imageService);
+            _fileStore = new GenericStore<Domain.Models.AttachedFile>(_fileService);
 
             _tasks = new ObservableCollection<Domain.Models.Task>(_context.Tasks.Local.ToBindingList());
             _taskStore.StateChanged += TaskStore_StateChanged;

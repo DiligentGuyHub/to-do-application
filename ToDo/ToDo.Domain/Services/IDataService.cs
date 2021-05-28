@@ -11,7 +11,6 @@ namespace ToDo.Domain.Services
     public interface IDataService<T>
     {
         Task<IEnumerable<T>> GetJoin(Func<T, bool> func, params Expression<Func<T, object>>[] expressions);
-        Task<List<T>> GetJoin(Func<T, bool> func);
         Task<ICollection<T>> GetAll();
         Task<T> Get(int id);
         Task<T> Create(T entity);

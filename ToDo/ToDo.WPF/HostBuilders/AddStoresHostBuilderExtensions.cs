@@ -21,7 +21,7 @@ namespace ToDo.WPF.HostBuilders
             host.ConfigureServices(services =>
             {
                 services.AddSingleton<INavigator, Navigator>();
-                services.AddSingleton<IAuthenticator, Authenticator>();
+                services.AddScoped<IAuthenticator, Authenticator>();
                 services.AddSingleton<IAccountStore, AccountStore>();
                 services.AddSingleton<TaskStore>();
                 services.AddSingleton<ISettings, Settings>();

@@ -51,30 +51,73 @@
                     Text="{Binding SelectedTaskInstance.Description, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                     TextWrapping="Wrap" />
             </Border>
+            <!--  PreviewMouseWheel="ScrollViewer_PreviewMouseWheel"  -->
+            <ScrollViewer
+                HorizontalScrollBarVisibility="Hidden"
+                PanningMode="HorizontalFirst"
+                VerticalScrollBarVisibility="Disabled">
+                <Border BorderBrush="{StaticResource BrushActivated}" BorderThickness="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Button
+                            Width="250"
+                            Height="250"
+                            BorderBrush="Transparent"
+                            Command="{Binding UploadImageCommand}"
+                            Content="+"
+                            FontSize="100">
+                            <Button.Background>
+                                <SolidColorBrush Opacity="0.5" Color="{StaticResource ColorHover}" />
+                            </Button.Background>
+                        </Button>
+                        <ListBox
+                            ItemsSource="{Binding Images, UpdateSourceTrigger=PropertyChanged}"
+                            ScrollViewer.CanContentScroll="True"
+                            ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                            VirtualizingStackPanel.ScrollUnit="Pixel">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Image
+                                        Width="250"
+                                        Height="250"
+                                        Source="{Binding Image, UpdateSourceTrigger=PropertyChanged}"
+                                        Stretch="UniformToFill" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel IsItemsHost="True" Orientation="Horizontal" />
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                        </ListBox>
+                    </StackPanel>
+                </Border>
+
+            </ScrollViewer>
             <Border BorderBrush="{StaticResource BrushActivated}" BorderThickness="0,0,0,0">
                 <StackPanel Orientation="Horizontal">
                     <Button
                         Width="250"
-                        Height="250"
+                        Height="50"
+                        VerticalContentAlignment="Center"
                         BorderBrush="Transparent"
-                        Command="{Binding UploadImageCommand}"
-                        Content="+"
-                        FontSize="100">
+                        Command="{Binding UploadFileCommand}"
+                        Content="file"
+                        FontSize="36">
                         <Button.Background>
                             <SolidColorBrush Opacity="0.5" Color="{StaticResource ColorHover}" />
                         </Button.Background>
                     </Button>
                     <ListBox
-                        ItemsSource="{Binding Images, UpdateSourceTrigger=PropertyChanged}"
+                        ItemsSource="{Binding Files, UpdateSourceTrigger=PropertyChanged}"
                         ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                         VirtualizingStackPanel.ScrollUnit="Pixel">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Image
+                                <TextBlock
                                     Width="250"
-                                    Height="250"
-                                    Source="{Binding Image}"
-                                    Stretch="Fill" />
+                                    Height="50"
+                                    FontSize="24"
+                                    Text="{Binding Filename, UpdateSourceTrigger=PropertyChanged}" />
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                         <ListBox.ItemsPanel>

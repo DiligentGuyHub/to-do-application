@@ -21,13 +21,13 @@ namespace ToDo.WPF.HostBuilders
         {
             host.ConfigureServices((context, services) =>
             {
-                services.AddSingleton<IDataService<User>, AccountDataService>();
-                services.AddSingleton<IAccountService, AccountDataService>();
-                services.AddSingleton<ITaskService, TaskDataService>();
-                services.AddSingleton<IFileService, FileDataService>();
-                services.AddSingleton<IImageService, ImageDataService>();
+                services.AddScoped<IDataService<User>, AccountDataService>();
+                services.AddScoped<IAccountService, AccountDataService>();
+                services.AddScoped<ITaskService, TaskDataService>();
+                services.AddScoped<IFileService, FileDataService>();
+                services.AddScoped<IImageService, ImageDataService>();
 
-                services.AddSingleton<IAuthenticationService, AuthenticationService>();
+                services.AddScoped<IAuthenticationService, AuthenticationService>();
                 services.AddSingleton<IExchangeRateService, ExchangeRateService>();
                 services.AddSingleton<IPasswordHasher, PasswordHasher>();
             });

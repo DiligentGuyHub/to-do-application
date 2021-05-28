@@ -15,8 +15,7 @@ namespace ToDo.WPF.ViewModels
 {
     public class TodayViewModel : ViewModelBase
     {
-        // PROPERTIES START
-        public TaskSummaryViewModel TaskSummaryViewModel { get; }
+        public TodayTaskSummaryViewModel TaskSummaryViewModel { get; }
 
         private string _task;
         public string Task
@@ -107,7 +106,7 @@ namespace ToDo.WPF.ViewModels
         // PROPERTIES END
 
         public ICommand CreateTaskCommand { get; set; }
-        public TodayViewModel(ITaskService taskService, IAccountStore accountStore, IAccountService accountService, TaskSummaryViewModel taskViewModel, MessageViewModel errorMessageViewModel)
+        public TodayViewModel(ITaskService taskService, IAccountStore accountStore, IAccountService accountService, TodayTaskSummaryViewModel taskViewModel, MessageViewModel errorMessageViewModel)
         {
             CreateTaskCommand = new CreateTaskCommand(this, taskService, accountStore, accountService);
             actualDay = DateTime.Now.ToString("dd");

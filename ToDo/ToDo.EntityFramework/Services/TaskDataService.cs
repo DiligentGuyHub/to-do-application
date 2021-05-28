@@ -35,7 +35,7 @@ namespace ToDo.EntityFramework.Services.Common
             {
                 Domain.Models.Task task = new Domain.Models.Task()
                 {
-                    Account = account,
+                    UserId = account.Id,
                     Header = header,
                     Category = category,
                     Priority = priority,
@@ -47,7 +47,7 @@ namespace ToDo.EntityFramework.Services.Common
                     Subtasks = subTasks
                 };
 
-
+                await Create(task);
                 account.Tasks.Add(task);
             }
             return account;

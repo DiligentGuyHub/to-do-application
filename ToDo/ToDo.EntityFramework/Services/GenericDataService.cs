@@ -74,13 +74,5 @@ namespace ToDo.EntityFramework.Services
                 return includeProperties.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
             }
         }
-
-        public async Task<List<T>> GetJoin(Func<T, bool> func)
-        {
-            using (ToDoDbContext context = _contextFactory.CreateDbContext())
-            {
-                return new List<T>(context.Set<T>().Where(func));
-            }
-        }
     }
 }

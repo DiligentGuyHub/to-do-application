@@ -15,15 +15,17 @@ namespace ToDo.WPF.Commands
 {
     public class UploadImageCommand : AsyncCommandBase
     {
-        private ITaskService _taskService;
+        private IImageService _imageService;
+        private IAccountService _accountService;
         private IAccountStore _accountStore;
         private TaskSummaryViewModel _taskSummaryViewModel;
 
-        public UploadImageCommand(ITaskService taskService, IAccountStore accountStore, TaskSummaryViewModel taskSummaryViewModel)
+        public UploadImageCommand(IAccountStore accountStore, TaskSummaryViewModel taskSummaryViewModel, IImageService imageService, IAccountService accountService)
         {
-            _taskService = taskService;
-            _accountStore = accountStore;
             _taskSummaryViewModel = taskSummaryViewModel;
+            _accountStore = accountStore;
+            _imageService = imageService;
+            _accountService = accountService;
         }
 
         public async override System.Threading.Tasks.Task ExecuteAsync(object parameter)
@@ -40,7 +42,14 @@ namespace ToDo.WPF.Commands
                 using (FileStream fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read))
                 {
                     BinaryReader binaryReader = new BinaryReader(fileStream);
-                    var image = binaryReader.ReadBytes((int)fileStream.Length);
+                    var binaryFile = binaryReader.ReadBytes((int)fileStream.Length);
+
+                    AttachedImage image = new AttachedImage()
+                    {
+                        TaskId = _taskSummaryViewModel.SelectedTask,
+                        Image = binaryFile
+                    };
+                    await _imageService.Create(image);
                 }
             }
         }

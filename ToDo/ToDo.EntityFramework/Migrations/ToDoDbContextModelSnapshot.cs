@@ -29,6 +29,9 @@ namespace ToDo.EntityFramework.Migrations
                     b.Property<byte[]>("File")
                         .HasColumnType("varbinary(max)");
 
+                    b.Property<string>("Filename")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("TaskId")
                         .HasColumnType("int");
 

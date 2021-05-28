@@ -11,8 +11,8 @@ namespace ToDo.Domain.Models
 {
     public class Task : DomainBase
     {
-        public int UserId { get; set; }
         [ForeignKey("UserId")]
+        public int UserId { get; set; }
         public User Account { get; set; }
         public string Header { get; set; }
         public string Category { get; set; }
